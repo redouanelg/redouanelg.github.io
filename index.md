@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permaling: /
+permalink: /
 ---
 
 ## Ajit Home page

@@ -1,6 +1,6 @@
 ---
-layout: post
-#layout: page
+#layout: post
+layout: page
 title: What's Jekyll?
 ---
 
