@@ -8,19 +8,19 @@ permalink:        pretty
 
 # Setup
 title:            Ajit Kumar
-tagline:          'A Jekyll theme'
-description:      'lalalalala'
+#tagline:          'A Jekyll theme'
+description:      'Assistant Professor <br> Department of Mathematics <br> Shiv Nadar University'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Ajit Kumar'
+  url:
 
 #paginate:         5
 
 # Custom vars
-version:          2.1.0
+#version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+#github:
+#  repo:           https://github.com/
