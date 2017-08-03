@@ -2,6 +2,7 @@
 #layout: post
 layout: page
 title: Teaching
+permalink: /
 ---
 
 

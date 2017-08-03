@@ -2,6 +2,8 @@
 #layout: post
 layout: page
 title: Tutorials
+permalink: /
+permalink: /
 ---
 
 
