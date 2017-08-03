@@ -1,9 +1,14 @@
 ---
 layout: default
-title: Home
+title: About me
 permalink: /
 ---
 
+## {{page.title}}
+
+Hey there! My name is Ajit Kumar. Currently I am working as Assistant Professor, Dept. of Mathematics, [Shiv Nadar University](http://www.snu.edu.in/).
+
+<!--
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
 ### Built on Poole
@@ -63,4 +68,4 @@ Some fun facts about the setup of this project include:
 
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-Thanks for reading!
+Thanks for reading! -->
