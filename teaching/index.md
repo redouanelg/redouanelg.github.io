@@ -1,10 +1,14 @@
 ---
 layout: page
-title: Current Courses
+title: Currently Teaching
 permalink: /teaching/
 ---
 
-*  MAT431 - Partial Differential Equations
+* MAT431 - Partial Differential Equations
+* MAT103 - Mathematical Methods I (Essentially multi-variable Calculus)
 
-*  MAT103 - Mathematical Methods I
-     <p>This is essentially a multi-variable calculus course. </p>
+
+
+<p class="message">
+See <a href="/CV-AjitKumar.pdf" target="_blank"> CV</a> for a complete list of courses I have taught in the past.
+</p>
