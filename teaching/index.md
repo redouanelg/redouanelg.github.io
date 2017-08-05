@@ -1,7 +1,10 @@
 ---
 layout: page
-title: Teaching
+title: Current Courses
 permalink: /teaching/
 ---
 
-### Teaching details comes here
+*  MAT431 - Partial Differential Equations
+
+*  MAT103 - Mathematical Methods I
+     <p>This is essentially a multi-variable calculus course. </p>
