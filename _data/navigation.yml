@@ -4,14 +4,15 @@ main:
 - title: "Home"
   url: /
 
+- title: "Teaching"
+  url: /teaching/
+
 - title: "Publications"
   url: /publications/
 
 # - title: "Talks"
 #   url: /talks/
 #
-# - title: "Teaching"
-#   url: /teaching/
 #
 # - title: "CV"
 #   url: /cv/
