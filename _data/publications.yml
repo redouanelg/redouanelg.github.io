@@ -1,0 +1,30 @@
+journal:
+
+- title: "Piecewise linear and boolean models of chemical reaction networks"
+  author: "A. Veliz-Cuba, A. Kumar, K. Josic"
+  journal: "Bulletin of Mathematical Biology"
+  volume: "76"
+  number: "12"
+  pages: "2945-2984"
+  year: "2014"
+  url:  "https://link.springer.com/article/10.1007/s11538-014-0040-x"
+
+
+- title: "Reduced models of networks of coupled enzymatic reactions"
+  author: "A. Kumar and K. Josic"
+  journal: "Journal of Theoretical Biology"
+  volume: "278"
+  number: "1"
+  pages: "87-106"
+  year: "2011"
+  publisher: "Elsevier"
+  url:  "http://www.sciencedirect.com/science/article/pii/S0022519311001275"
+
+
+conference:
+
+- title: "Numerical simulation of cricket ball swings using OpenFOAM"
+  author: "A. Kumar"
+  conference: "17th Annual CFD Symposium. National Aerospace Lab. Bangalore. India"
+  year: "2015"
+  url:  "http://www.nal.res.in/CFDsympo17/cfdfullpaperfinal/Numerical%20simulation%20of%20cricket%20ball%20swings%20using%20OpenFOAM.pdf"
