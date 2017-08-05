@@ -26,7 +26,8 @@ OpenFoam. Target features:
 * Tight coupling between fluid and structure solver
 
 ### Skills
-* Computer Languages : C++, Matlab, Python
-* Computational Softwares : ​OpenFoam, Paraview, Gmsh, Elmer, Salome, FEniCS
-* Operating System : (exclusivley) Linux
-* Other Useful Toolls : Git, JeKyll, Julia, Liquid, Mathematica, Scilab, Maxima, Shell
+
+|Computer Languages     | C++, Matlab, Python|
+Computational Softwares | [​OpenFoam](https://openfoam.org/), [Paraview](https://www.paraview.org/), [Gmsh](http://gmsh.info/), [Elmer](https://www.csc.fi/web/elmer), [Salome](http://www.salome-platform.org/), [FEniCS](https://fenicsproject.org/)|
+| Operating System      | (exclusively) Linux|
+|Other Useful Tools    | Git, JeKyll, Julia, Liquid, Mathematica, Scilab, Maxima, Shell|
