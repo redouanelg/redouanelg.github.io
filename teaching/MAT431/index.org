@@ -1,5 +1,4 @@
 #+startup: showall
-
 #+BEGIN_HTML
 ---
 
@@ -35,6 +34,11 @@
 * Course Structure
 
 Course details will come here
+\begin{align*}
+\frac{1}{2}
+\end{align*}
+
+
 
 * Introduction to matlab pdetoolbox
 
