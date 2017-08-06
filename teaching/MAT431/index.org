@@ -1,16 +1,4 @@
 #+startup: showall
-#+BEGIN_HTML
----
-
----
-#+END_HTML
-
-#+LANGUAGE:  en
-#+OPTIONS:   H:4 toc:t num:2
-
-#+PROPERTY:  header-args :padline no
-#+SETUPFILE: setup/theme-readtheorg.setup
-
 
 
 #+latex_header: \newcommand{\Sig}{\Sigma}
