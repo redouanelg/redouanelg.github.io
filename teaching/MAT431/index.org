@@ -1,5 +1,11 @@
 #+startup: showall
 
+#+BEGIN_HTML
+---
+
+---
+#+END_HTML
+
 #+LANGUAGE:  en
 #+OPTIONS:   H:4 toc:t num:2
 
@@ -23,8 +29,6 @@
 #+latex_header: \newcommand{\ve}{\mathbf{\varepsilon}}
 #+latex_header: \newcommand{\ml}{\left[\begin{array}}
 #+latex_header: \newcommand{\mr}{\end{array}\right]}
-
-
 
 #+TITLE:  MAT431 - Partial Differential Equations
 
