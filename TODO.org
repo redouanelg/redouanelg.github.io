@@ -1,4 +1,9 @@
-* IN PROGRESS Get mathjx working to have latex on webpages
+* write a blog on setting mathjax in github site
+* Prepare the MAT 431 page
+
+
+* Write a blog thanking all the resources I have used to build this site
+
 
 
 
