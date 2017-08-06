@@ -1,6 +1,9 @@
 #+startup: showall
 
 
+#+SETUPFILE: setup/theme-readtheorg-local.setup
+
+
 #+latex_header: \newcommand{\Sig}{\Sigma}
 #+latex_header: \newcommand{\Om}{\Omega}
 #+latex_header: \newcommand{\om}{\omega}
@@ -21,11 +24,11 @@
 
 * Course Structure
 
-Course details will come here
+Testing math typing
 
-$$
-\frac{1}{2} + fdfddf + 3^2 = \sqrt{4}
-$$
+\begin{align*}
+\frac{-b \pm \sqrt{b^2 - 4ac}}{2}
+\end{align*}
 
 
 

@@ -1,180 +1,241 @@
-<!DOCTYPE html>
-<html>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>MathJax Test Page</title>
-<!-- Copyright (c) 2009-2017 The MathJax Consortium -->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<script type="text/x-mathjax-config">
-//
-//  Do NOT use this page as a template for your own pages.  It includes 
-//  code that is needed for testing your site's installation of MathJax,
-//  and that should not be used in normal web pages.  Use sample.html as
-//  the example for how to call MathJax in your own pages.
-//
-  MathJax.HTML.Cookie.Set("menu",{});
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX","output/HTML-CSS"],
-    "HTML-CSS": {
-      availableFonts:[],
-      styles: {".MathJax_Preview": {visibility: "hidden"}}
-    }
-  });
-  MathJax.Hub.Register.StartupHook("HTML-CSS Jax Ready",function () {
-    var FONT = MathJax.OutputJax["HTML-CSS"].Font;
-    FONT.loadError = function (font) {
-      MathJax.Message.Set("Can't load web font TeX/"+font.directory,null,2000);
-      document.getElementById("noWebFont").style.display = "";
-    };
-    FONT.firefoxFontError = function (font) {
-      MathJax.Message.Set("Firefox can't load web fonts from a remote host",null,3000);
-      document.getElementById("ffWebFont").style.display = "";
-    };
-  });
-
-(function (HUB) {
-  
-  var MINVERSION = {
-    Firefox: 3.0,
-    Opera: 9.52,
-    MSIE: 6.0,
-    Chrome: 0.3,
-    Safari: 2.0,
-    Konqueror: 4.0,
-    Unknown: 10000.0 // always disable unknown browsers
-  };
-  
-  if (!HUB.Browser.versionAtLeast(MINVERSION[HUB.Browser]||0.0)) {
-    HUB.Config({
-      jax: [],                   // don't load any Jax
-      extensions: [],            // don't load any extensions
-      "v1.0-compatible": false   // skip warning message due to no jax
-    });
-    setTimeout('document.getElementById("badBrowser").style.display = ""',0);
+<title>MAT431 - Partial Differential Equations</title>
+<!-- 2017-08-06 Sun 23:00 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Ajit Kumar" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
   }
-  
-})(MathJax.Hub);
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
 
-MathJax.Hub.Register.StartupHook("End",function () {
-  var HTMLCSS = MathJax.OutputJax["HTML-CSS"];
-  if (HTMLCSS && HTMLCSS.imgFonts) {document.getElementById("imageFonts").style.display = ""}
-});
-
-</script>
-<script type="text/javascript" src="../MathJax.js"></script>
-
-<style>
-.warning {
-  color: #800020;
-  background-color: #FFF8F8;
-  border: 2px solid red;
-  margin: 1em 5em;
-  padding: 1em;
-}
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
 </style>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/javascript" src="http://orgmode.org/mathjax/MathJax.js"></script>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+    MathJax.Hub.Config({
+        // Only one of the two following lines, depending on user settings
+        // First allows browser-native MathML display, second forces HTML/CSS
+        //  config: ["MMLorHTML.js"], jax: ["input/TeX"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+        extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js",
+                     "TeX/noUndefined.js"],
+        tex2jax: {
+            inlineMath: [ ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"], ["\\begin{displaymath}","\\end{displaymath}"] ],
+            skipTags: ["script","noscript","style","textarea","pre","code"],
+            ignoreClass: "tex2jax_ignore",
+            processEscapes: false,
+            processEnvironments: true,
+            preview: "TeX"
+        },
+        showProcessingMessages: true,
+        displayAlign: "center",
+        displayIndent: "2em",
+
+        "HTML-CSS": {
+             scale: 100,
+             availableFonts: ["STIX","TeX"],
+             preferredFont: "TeX",
+             webFont: "TeX",
+             imageFont: "TeX",
+             showMathMenu: true,
+        },
+        MMLorHTML: {
+             prefer: {
+                 MSIE:    "MML",
+                 Firefox: "MML",
+                 Opera:   "HTML",
+                 other:   "HTML"
+             }
+        }
+    });
+/*]]>*///-->
+</script>
 </head>
 <body>
-
-<noscript>
-<div style="color:#CC0000; text-align:center">
-<b>Warning: <a href="http://www.mathjax.org/">MathJax</a>
-requires JavaScript to process the mathematics on this page.<br />
-If your browser supports JavaScript, be sure it is enabled.</b>
+<div id="content">
+<h1 class="title">MAT431 - Partial Differential Equations</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Course Structure</a></li>
+<li><a href="#sec-2">2. Introduction to matlab pdetoolbox</a></li>
+<li><a href="#sec-3">3. Laplace Operator</a></li>
+</ul>
 </div>
-<hr>
-</noscript>
+</div>
 
-<blockquote>
-
-<h1>MathJax Test Page</h1>
-
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Course Structure</h2>
+<div class="outline-text-2" id="text-1">
 <p>
-If you see typeset mathematics below, then MathJax is working.  If you see
-TeX code instead, MathJax is not working for you.
-</p>
-<!------------------------------------------------------------------------>
-<hr>
-
-
-<p>
-\[
-\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-\]
+Testing math typing
 </p>
 
-<div style="color:green">
-<div style="text-align:center; color:red; font-size:120%" class="MathJax_Preview">
-MathJax is not working!
-</div><script type="math/tex; mode=display">
-\bf MathJax\ Appears\ to\ be\ Working!
-</script>
+\begin{align*}
+\frac{-b \pm \sqrt{b^2 - 4ac}}{2}
+\end{align*}
+</div>
 </div>
 
-<hr>
 
-<!------------------------------------------------------------------------>
 
-<div id="badBrowser" style="display:none">
-<div class="warning">
-<b>WARNING</b>: The browser you are using does not appear to support
-MathJax, so we can't test if MathJax is working.  Please try a different
-browser, or a newer version of your browser in order to test MathJax.
-</div>
-<hr>
-</div>
-
-<!------------------------------------------------------------------------>
-
-<div id="imageFonts" style="display:none">
-<div class="warning">
-<b>WARNING</b>: The browser you are using does not seem to support web-based
-fonts, so we can't test the MathJax web fonts with this browser (image fonts
-have been used instead). Please try a different browser, or a newer version
-of your browser in order to test MathJax's web-based fonts.
-</div>
-<hr>
-</div>
-
-<!------------------------------------------------------------------------>
-
-<div id="noWebFont" style="display:none">
-<div class="warning">
-<b>WARNING</b>: MathJax's web fonts don't seem to be available.  Be sure you have
-the <code>MathJax/fonts</code> directory in place before continuing.
-If you fail to install these fonts, MathJax will not 
-work properly with some browsers.  If you can't install the image fonts, 
-be sure to set the <code>noImageFonts</code> parameter in your MathJax configuration 
-(either <code>MathJax/config/MathJax.js</code>, or the 
-<code>MathJax.Hub.Config()</code> call in your web page).
-</div>
-<hr>
-</div>
-
-<!------------------------------------------------------------------------>
-
-<div id="ffWebFont" style="display:none">
-<div class="warning">
-<b>WARNING</b>: You are trying to load MathJax from a remote site where the
-web-based fonts are not set up to be shipped to Firefox properly.  See the
-<a href="../docs/html/installation.html#notes-about-shared-installations">discussion
-of Firefox's same-origin policy</a> in the MathJax documentation for more 
-details.
-</div>
-<hr>
-</div>
-
-<!------------------------------------------------------------------------>
-
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Introduction to matlab pdetoolbox</h2>
+<div class="outline-text-2" id="text-2">
 <p>
-Once you have MathJax working properly, view the <a
-href="index-images.html">image mode test page</a> to make sure that the
-image fallback mode is working as well.
+Tutorial on PDE toolbox will come here
 </p>
+</div>
+</div>
 
-</blockquote>
 
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Laplace Operator</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+What is so great about Laplace operator?
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Ajit Kumar</p>
+<p class="date">Created: 2017-08-06 Sun 23:00</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
 </body>
 </html>
