@@ -1,7 +1,8 @@
 #+startup: showall
 
+ # Org mode file does not get processed. So html file generation is local. Therefore, the setfile location must be local, not with respect to site root
 
-#+SETUPFILE: setup/theme-readtheorg-local.setup
+#+SETUPFILE: /home/ajit/Desktop/webpage/krajit/public/coursePages/setup/theme-readtheorg-local.setup
 
 #+latex_header: \newcommand{\Sig}{\Sigma}
 #+latex_header: \newcommand{\Om}{\Omega}
