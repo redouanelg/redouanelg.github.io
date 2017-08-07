@@ -27,7 +27,7 @@
 Testing math typing
 
 \begin{align*}
-\frac{-b \pm \sqrt{b^2 - 4ac}}{2}
+\nl + 2
 \end{align*}
 
 
