@@ -49,9 +49,8 @@ TEX.Macro("Dt","{\\Delta}");
 TEX.Macro("dt","{\\delta}");
 TEX.Macro("ep","{\\epsilon}");
 TEX.Macro("vp","{\\varphi}");
-TEX.Macro("ve","{\\mathbf{\\varepsilon}}");
-TEX.Macro("ml","{\\left[\\begin\{array\}}");
-TEX.Macro("mr","{\\end\{array\}\\right]}");
+TEX.Macro("ve","{\\mathbf{\\varepsilon\}}");
+TEX.Macro("divc","{\\mathbf\{div\}}");
 });
 
 MathJax.Ajax.loadComplete("[MathJax]/config/local/local.js");

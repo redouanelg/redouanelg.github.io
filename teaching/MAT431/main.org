@@ -1,0 +1,117 @@
+#+startup: showall
+#+options: toc:nil
+#+title: 
+
+#+latex_header: \newcommand{\Sig}{\Sigma}
+#+latex_header: \newcommand{\Om}{\Omega}
+#+latex_header: \newcommand{\om}{\omega}
+#+latex_header: \newcommand{\Gm}{\Gamma}
+#+latex_header: \newcommand{\tor}{\rightarrow}
+#+latex_header: \newcommand{\R}{\mathbf{R}}
+#+latex_header: \newcommand{\p}{\partial}
+#+latex_header: \newcommand{\nl}{\nabla}
+#+latex_header: \newcommand{\Dt}{\Delta}
+#+latex_header: \newcommand{\dt}{\delta}
+#+latex_header: \newcommand{\ep}{\epsilon}
+#+latex_header: \newcommand{\vp}{\varphi}
+#+latex_header: \newcommand{\ve}{\mathbf{\varepsilon}}
+#+latex_header: \newcommand{\divc}{\mathbf{div}}
+
+#+MACRO: \p replacement \partial 
+
+* Matlab - pde toolbox
+
+- toolbox for solving 2d & 3d generic pde using Finite Element Method
+
+* Getting started
+
+Start by typing 
+#+BEGIN_SRC matlab
+pdetool
+#+END_SRC
+
+The pde app opens looking something like 
+
+[[./images/pdeapp.png]]
+
+
+* Divergence, gradient, Laplacian
+
+** Gradients
+Suppose \(u(x,y,z)\) is a scalar valued function. Gradient of \(u\), denoted by \(\nl(u)\), is defined as
+\begin{align*}
+\nl(u) =  \ml{r} \frac{\p u}{\p x} \\ \frac{\p u}{\p y} \\ \frac{\p u}{\p z} \mr 
+\end{align*}
+
+** Divergence
+Suppose \(F(x,y,z) = F_1 \mathbf{i} + F_2 \mathbf{j} + F_2 \mathbf{k}\) is a vector valued function. Divergence of \(F\), denoted by \(\text{div}(F)\) of \(\nl \cdot (F)\) is defined as
+\begin{align*}
+\textrm{div} (F) = \frac{\p F_1}{\p x} + \frac{\p F_2}{\p y} + \frac{\p F_3}{\p z} 
+\end{align*}
+
+** Laplacian
+
+Laplacian of a scalar valued function \(u(x,y,z)\), denoted by \(\Dt(u)\), is defined as
+
+\begin{align*}
+\Dt (u) = \textrm{div} (\nl u) = \frac{\p^2 u}{\p x^2} + \frac{\p^2 u}{\p y^2} + \frac{\p^2 u}{\p z^2} 
+\end{align*}
+
+
+
+* Poisson's Equation
+
+A two variable Poisson Equation looks like
+
+\begin{align*}
+\Dt (u) = f(x,y)
+\end{align*}
+
+The function \(f(x,y)\) is given and \(u(x,y)\) is to be determined. All PDEs are valid only in certain domain and there must be boundary conditions given at every part of the of the boundary. 
+
+
+* Laplace equations
+
+Recall *divergence theorem* from vector calculus. If \(\vec{F}\) is a vector field, \(V\) is a given volume, \(\p V\) is the the boundary of \(V\), then the flux of \(\vec{F}\) across \(\p V\) is equal to the volume integration of \(\divc(\vec{F})\). 
+
+\begin{align*}
+\int_{\p V} \vec{F} \cdot \hat{n} \, dS = \int_V \divc (\vec{F}) d V 
+\end{align*}
+
+
+Suppose \(u(x,y,z)\) is scalar field. It helps to associate \(u\) as some kind of potential field, for example, \(u\) might denote temperature as potential for heat. It is known that \(-\nl(u)\) is the direction of steepest descent and \(|\nl(u)|\) is max rate of change in that direction. It is common to assume flow field associated with a potential to be of the form \(\vec{F} = -c \nl(u)\). Negative gradient is for 
+ 
+
+* Examples
+
+
+** Example 1: (Matlab tutorial) Solve Poisson's Equation on a Unit Disk
+
+*** Follow along
+
+*** Review steps
+- What was the domain?
+- What was the equation?
+- What was the boundary condition?
+- What it it that you just plotted?
+
+
+
+
+** Example 2: Solve the Poisson equation in the unit square
+
+\begin{align*}
+\Dt(u) = 0, \qquad \textrm{for }   0 \le x,y, \le 1,
+\end{align*}
+
+with boundary conditions: \(u(y,0) = 0,  u(1,y) = 1 \;\forall y\), and \(\frac{\p u}{\p y}(x,0) = \frac{\p u}{\p y}(x,1) =0 \) for all \(0 \le x \le 1\).
+
+
+** Example 3: (Matlab tutorial) Poisson's Equation with Complex 2-D Geometry
+
+** Example 4: A shell with hot inside ring
+
+
+
+
+
