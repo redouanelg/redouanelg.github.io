@@ -37,6 +37,21 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
 
 // Ajit: my macros
 TEX.Macro("nl","{\\nabla}");
+TEX.Macro("Sig","{\\Sigma}");
+TEX.Macro("Om","{\\Omega}");
+TEX.Macro("om","{\\omega}");
+TEX.Macro("Gm","{\\Gamma}");
+TEX.Macro("tor","{\\rightarrow}");
+TEX.Macro("R","{\\mathbf\{R\}}");
+TEX.Macro("p","{\\partial}");
+TEX.Macro("nl","{\\nabla}");
+TEX.Macro("Dt","{\\Delta}");
+TEX.Macro("dt","{\\delta}");
+TEX.Macro("ep","{\\epsilon}");
+TEX.Macro("vp","{\\varphi}");
+TEX.Macro("ve","{\\mathbf{\\varepsilon}}");
+TEX.Macro("ml","{\\left[\\begin\{array\}}");
+TEX.Macro("mr","{\\end\{array\}\\right]}");
 });
 
 MathJax.Ajax.loadComplete("[MathJax]/config/local/local.js");

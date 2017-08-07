@@ -3,7 +3,6 @@
 
 #+SETUPFILE: setup/theme-readtheorg-local.setup
 
-
 #+latex_header: \newcommand{\Sig}{\Sigma}
 #+latex_header: \newcommand{\Om}{\Omega}
 #+latex_header: \newcommand{\om}{\omega}
