@@ -1,0 +1,175 @@
+#+startup: showall
+#+options: num:0
+#+TITLE:  MAT431 - Partial Differential Equations
+----------------
+
+
+#+ATTR_HTML: :width 100%
+|------------+-------------------------|
+|            | Shiv  Nadar  University |
+| Instructor | Ajit Kumar              |
+| Office     | B122F                   |
+|------------+-------------------------|
+----------------
+
+* File setup                                                       :noexport:
+
+ # AK: turn of default html loading
+#+OPTIONS: html-style:nil
+ 
+# Org mode file does not get processed. So html file generation is local. Therefore, the setfile location must be local, not with respect to site root
+
+
+
+#+SETUPFILE: /home/ajit/Desktop/webpage/krajit/public/coursePages/setup/theme-readtheorg-local.setup
+
+#+latex_header: \newcommand{\Sig}{\Sigma}
+#+latex_header: \newcommand{\Om}{\Omega}
+#+latex_header: \newcommand{\om}{\omega}
+#+latex_header: \newcommand{\Gm}{\Gamma}
+#+latex_header: \newcommand{\tor}{\rightarrow}
+#+latex_header: \newcommand{\R}{\mathbf{R}}
+#+latex_header: \newcommand{\p}{\partial}
+#+latex_header: \newcommand{\nl}{\nabla}
+#+latex_header: \newcommand{\Dt}{\Delta}
+#+latex_header: \newcommand{\dt}{\delta}
+#+latex_header: \newcommand{\ep}{\epsilon}
+#+latex_header: \newcommand{\vp}{\varphi}
+#+latex_header: \newcommand{\ve}{\mathbf{\varepsilon}}
+#+latex_header: \newcommand{\ml}{\left[\begin{array}}
+#+latex_header: \newcommand{\mr}{\end{array}\right]}
+#+latex_header: \newcommand{\divc}{\mathbf{div}}
+
+
+* Course Information
+
+** Overview
+One primary goal of science is to observe nature and figure out its  basic governing laws. This pursuit of accurate predictions of nature frequently requires us to frame nature laws in mathematical equations. Partial Differential Equations (PDEs) is a special form of equation which has played a prominent role in our current engineering and technological advancement. The focus of this course is to understand how PDEs come out as a natural mathematical tool to study problems like  climate change,  pollution control, aerodynamics, civil engineering, etc. 
+
+** Pedagogy
+The course will be divided into 10 projects. Each project will have following components:
+
+- A real life or at least non-mathematical situation from, e.g, image processing, turbine design, climate study, bridge design,  etc.
+- Review of necessary physics or any other background information necessary to study this area.
+- Derivation of project specific PDEs.
+- Use of a software to plot and analyze the solutions of the PDE. (No prior computational experience necessary)
+- Report submission on consistency between: underlying problem, PDE, and plotted solutions.
+- So what? Imagine another situation where similar PDE fits.
+
+** References
+- An Introduction to Partial Differential Equations with MATLAB, Mathew P. Coleman (Second Edition)
+- A collection of Problems in Mathematical Physics, B. M. Budak and A. A. Samarskii
+
+** Assessment 
+
+Based on project reports
+
+
+------------------------------------------
+------------------------------------------
+
+
+* Vector calculus (review)
+
+** Gradients
+Suppose \(u(x,y,z)\) is a scalar valued function. Gradient of \(u\), denoted by \(\nl(u)\), is defined as
+\begin{align*}
+\nl(u) =  \left[\begin{array} {rrrr} \frac{\p u}{\p x} \\  \frac{\p u}{\p y} \\  \frac{\p u}{\p z} \end{array} \right] 
+\end{align*}
+
+** Divergence
+Suppose \(F(x,y,z) = F_1 \mathbf{i} + F_2 \mathbf{j} + F_2 \mathbf{k}\) is a vector valued function. Divergence of \(F\), denoted by \(\text{div}(F)\) of \(\nl \cdot (F)\) is defined as
+\begin{align*}
+\textrm{div} (F) = \frac{\p F_1}{\p x} + \frac{\p F_2}{\p y} + \frac{\p F_3}{\p z} 
+\end{align*}
+
+** Laplacian
+
+Laplacian of a scalar valued function \(u(x,y,z)\), denoted by \(\Dt(u)\), is defined as
+
+\begin{align*}
+\Dt (u) = \textrm{div} (\nl u) = \frac{\p^2 u}{\p x^2} + \frac{\p^2 u}{\p y^2} + \frac{\p^2 u}{\p z^2} 
+\end{align*}
+
+** Divergence Threorem
+
+Recall *divergence theorem* from vector calculus. If \(\vec{F}\) is a vector field, \(V\) is a given volume, \(\p V\) is the the boundary of \(V\), then the flux of \(\vec{F}\) across \(\p V\) is equal to the volume integration of \(\divc(\vec{F})\). 
+
+\begin{align*}
+\int_{\p V} \vec{F} \cdot \hat{n} \, dS = \int_V \divc (\vec{F}) d V 
+\end{align*}
+
+
+----------------------
+* Some fundamental PDEs
+
+** Poisson's Equation
+
+A two variable Poisson Equation looks like
+
+\begin{align*}
+\Dt (u) = f(x,y)
+\end{align*}
+
+The function \(f(x,y)\) is given and \(u(x,y)\) is to be determined. All PDEs are valid only in certain domain and there must be boundary conditions given at every part of the of the boundary. 
+
+
+
+
+#+BEGIN_comment
+Suppose \(u(x,y,z)\) is scalar field. It helps to associate \(u\) as some kind of potential field, for example, \(u\) might denote temperature as potential for heat. It is known that \(-\nl(u)\) is the direction of steepest descent and \(|\nl(u)|\) is max rate of change in that direction. It is common to assume flow field associated with a potential to be of the form \(\vec{F} = -c \nl(u)\). Negative gradient is 
+#+END_comment
+
+
+---------------------
+* Matlab - pde toolbox
+
+A toolbox for solving 2d & 3d generic pde using Finite Element Method
+
+
+** Getting started
+
+Start by typing 
+#+BEGIN_SRC matlab
+pdetool
+#+END_SRC
+
+The pde app opens looking something like 
+
+#+ATTR_HTML: :width 50%
+[[./images/pdeapp.png]]
+
+
+** Examples
+
+
+*** Example 1: (Matlab tutorial) Solve Poisson's Equation on a Unit Disk
+
+**** Follow along
+
+**** Review steps
+- What was the domain?
+- What was the equation?
+- What was the boundary condition?
+- What it it that you just plotted?
+
+
+
+
+*** Example 2: Solve the Poisson equation in the unit square
+
+\begin{align*}
+\Dt(u) = 0, \qquad \textrm{for }   0 \le x,y, \le 1,
+\end{align*}
+
+with boundary conditions: \(u(y,0) = 0,  u(1,y) = 1 \;\forall y\), and \(\frac{\p u}{\p y}(x,0) = \frac{\p u}{\p y}(x,1) =0 \) for all \(0 \le x \le 1\).
+
+
+*** Example 3: (Matlab tutorial) Poisson's Equation with Complex 2-D Geometry
+
+*** Example 4: A shell with hot inside ring
+
+
+
+
+
