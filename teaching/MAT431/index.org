@@ -69,85 +69,28 @@ Based on project reports
 ------------------------------------------
 
 
-* Vector calculus (review)
+* Project 1 : Introduction to PDEs and Matlab pde toolbox
 
-** Gradients
-Suppose \(u(x,y,z)\) is a scalar valued function. Gradient of \(u\), denoted by \(\nl(u)\), is defined as
-\begin{align*}
-\nl(u) =  \left[\begin{array} {rrrr} \frac{\p u}{\p x} \\  \frac{\p u}{\p y} \\  \frac{\p u}{\p z} \end{array} \right] 
-\end{align*}
-
-** Divergence
-Suppose \(F(x,y,z) = F_1 \mathbf{i} + F_2 \mathbf{j} + F_2 \mathbf{k}\) is a vector valued function. Divergence of \(F\), denoted by \(\text{div}(F)\) of \(\nl \cdot (F)\) is defined as
-\begin{align*}
-\textrm{div} (F) = \frac{\p F_1}{\p x} + \frac{\p F_2}{\p y} + \frac{\p F_3}{\p z} 
-\end{align*}
-
-** Laplacian
-
-Laplacian of a scalar valued function \(u(x,y,z)\), denoted by \(\Dt(u)\), is defined as
-
-\begin{align*}
-\Dt (u) = \textrm{div} (\nl u) = \frac{\p^2 u}{\p x^2} + \frac{\p^2 u}{\p y^2} + \frac{\p^2 u}{\p z^2} 
-\end{align*}
-
-** Divergence Threorem
-
-Recall *divergence theorem* from vector calculus. If \(\vec{F}\) is a vector field, \(V\) is a given volume, \(\p V\) is the the boundary of \(V\), then the flux of \(\vec{F}\) across \(\p V\) is equal to the volume integration of \(\divc(\vec{F})\). 
-
-\begin{align*}
-\int_{\p V} \vec{F} \cdot \hat{n} \, dS = \int_V \divc (\vec{F}) d V 
-\end{align*}
+** Definition of a PDE
 
 
-----------------------
-* Some fundamental PDEs
-
-** Poisson's Equation
-
-A two variable Poisson Equation looks like
-
-\begin{align*}
-\Dt (u) = f(x,y)
-\end{align*}
-
-The function \(f(x,y)\) is given and \(u(x,y)\) is to be determined. All PDEs are valid only in certain domain and there must be boundary conditions given at every part of the of the boundary. 
+** Some prominent PDEs and their background
 
 
+** PDE always needs to be complemented with  boundary conditions
 
 
-#+BEGIN_comment
-Suppose \(u(x,y,z)\) is scalar field. It helps to associate \(u\) as some kind of potential field, for example, \(u\) might denote temperature as potential for heat. It is known that \(-\nl(u)\) is the direction of steepest descent and \(|\nl(u)|\) is max rate of change in that direction. It is common to assume flow field associated with a potential to be of the form \(\vec{F} = -c \nl(u)\). Negative gradient is 
-#+END_comment
-
-
----------------------
-* Matlab - pde toolbox
+** Matlab pdetoolbox demo through examples
 
 A toolbox for solving 2d & 3d generic pde using Finite Element Method
 
+*** Examples
 
-** Getting started
+**** Example 1: (Matlab tutorial) Solve Poisson's Equation on a Unit Disk
 
-Start by typing 
-#+BEGIN_SRC matlab
-pdetool
-#+END_SRC
+***** Follow along
 
-The pde app opens looking something like 
-
-#+ATTR_HTML: :width 50%
-[[./images/pdeapp.png]]
-
-
-** Examples
-
-
-*** Example 1: (Matlab tutorial) Solve Poisson's Equation on a Unit Disk
-
-**** Follow along
-
-**** Review steps
+***** Review steps
 - What was the domain?
 - What was the equation?
 - What was the boundary condition?
@@ -156,7 +99,7 @@ The pde app opens looking something like
 
 
 
-*** Example 2: Solve the Poisson equation in the unit square
+**** Example 2: Solve the Poisson equation in the unit square
 
 \begin{align*}
 \Dt(u) = 0, \qquad \textrm{for }   0 \le x,y, \le 1,
@@ -165,11 +108,80 @@ The pde app opens looking something like
 with boundary conditions: \(u(y,0) = 0,  u(1,y) = 1 \;\forall y\), and \(\frac{\p u}{\p y}(x,0) = \frac{\p u}{\p y}(x,1) =0 \) for all \(0 \le x \le 1\).
 
 
-*** Example 3: (Matlab tutorial) Poisson's Equation with Complex 2-D Geometry
+**** Example 3: (Matlab tutorial) Poisson's Equation with Complex 2-D Geometry
 
-*** Example 4: A shell with hot inside ring
-
-
+**** Example 4: A shell with hot inside ring
 
 
+
+*** Project 1: Solve a given PDE with slightly non trivial domain in matlab.
+
+
+
+
+
+-------------------
+-------------------
+
+* Project 2: Poisson Equation, Diffusion, and heat equation
+
+** Vector calculus (review)
+
+*** Gradients
+Suppose \(u(x,y,z)\) is a scalar valued function. Gradient of \(u\), denoted by \(\nl(u)\), is defined as
+\begin{align*}
+\nl(u) =  \left[\begin{array} {rrrr} \frac{\p u}{\p x} \\  \frac{\p u}{\p y} \\  \frac{\p u}{\p z} \end{array} \right] 
+\end{align*}
+
+*** Divergence
+Suppose \(F(x,y,z) = F_1 \mathbf{i} + F_2 \mathbf{j} + F_2 \mathbf{k}\) is a vector valued function. Divergence of \(F\), denoted by \(\text{div}(F)\) of \(\nl \cdot (F)\) is defined as
+\begin{align*}
+\textrm{div} (F) = \frac{\p F_1}{\p x} + \frac{\p F_2}{\p y} + \frac{\p F_3}{\p z} 
+\end{align*}
+
+*** Laplacian
+
+Laplacian of a scalar valued function \(u(x,y,z)\), denoted by \(\Dt(u)\), is defined as
+
+\begin{align*}
+\Dt (u) = \textrm{div} (\nl u) = \frac{\p^2 u}{\p x^2} + \frac{\p^2 u}{\p y^2} + \frac{\p^2 u}{\p z^2} 
+\end{align*}
+
+*** Divergence Theorem
+
+Recall *divergence theorem* from vector calculus. If \(\vec{F}\) is a vector field, \(V\) is a given volume, \(\p V\) is the the boundary of \(V\), then the flux of \(\vec{F}\) across \(\p V\) is equal to the volume integration of \(\divc(\vec{F})\). 
+
+\begin{align*}
+\int_{\p V} \vec{F} \cdot \hat{n} \, dS = \int_V \divc (\vec{F}) d V 
+\end{align*}
+
+
+** Boundary conditions
+
+** Examples outside maths
+
+** Project: Find two examples of Laplace equation not discussed in class
+
+-----------------------
+-----------------------
+
+* Project 3: PDE of generic transport phenomena
+
+-----------------------
+-----------------------
+
+
+* Project 4: Structural Mechanics
+
+------------------------
+------------------------
+
+* Project 5: Aeronautics, fluid mechanics
+
+-----------------------
+-----------------------
+
+* Project 6-10: New areas using PDEs                               
+
+eg. image processing, climate simulation, cloud and rain formation, cloaking, 
 
