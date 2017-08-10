@@ -1,4 +1,5 @@
 * write a blog on setting mathjax in github site
+
 * Prepare the MAT 431 page
 
 
