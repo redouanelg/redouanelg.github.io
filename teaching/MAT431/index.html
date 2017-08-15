@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>MAT431 - Partial Differential Equations</title>
-<!-- 2017-08-10 Thu 23:46 -->
+<!-- 2017-08-15 Tue 15:18 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Ajit Kumar" />
@@ -123,12 +123,26 @@ for the JavaScript code in this tag.
 <li><a href="#sec-2">Project 1 : Introduction to PDEs and Matlab pde toolbox</a>
 <ul>
 <li><a href="#sec-2-1">Definition of a PDE</a></li>
-<li><a href="#sec-2-2">Some prominent PDEs and their background</a></li>
-<li><a href="#sec-2-3">PDE always needs to be complemented with  boundary conditions</a></li>
-<li><a href="#sec-2-4">Matlab pdetoolbox demo through examples</a>
+<li><a href="#sec-2-2">Examples</a>
 <ul>
-<li><a href="#sec-2-4-1">Examples</a></li>
-<li><a href="#sec-2-4-2">Project 1: Solve a given PDE with slightly non trivial domain in matlab.</a></li>
+<li><a href="#sec-2-2-1">Poisson's equation [Wiki]</a></li>
+<li><a href="#sec-2-2-2">Heat Equation, Diffusion Equation [Wiki]</a></li>
+<li><a href="#sec-2-2-3">Convection–diffusion equation [Wiki]</a></li>
+<li><a href="#sec-2-2-4">Wave equation [Wiki]</a></li>
+<li><a href="#sec-2-2-5">Equations of Mechanical Engineering [Link]</a></li>
+<li><a href="#sec-2-2-6">PDE is air pollution study [link]</a></li>
+<li><a href="#sec-2-2-7">Navier-Stokes Equation [Wiki]</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-3">Typical structure of a PDE problem:</a></li>
+<li><a href="#sec-2-4">Matlab pdetoolbox demo</a>
+<ul>
+<li><a href="#sec-2-4-1">Example 1: (Matlab tutorial) Solve Poisson's Equation on a Unit Disk</a></li>
+<li><a href="#sec-2-4-2">Example 2: Solve the Poisson equation in the unit square</a></li>
+<li><a href="#sec-2-4-3">Example 3: (Matlab tutorial) Poisson's Equation with Complex 2-D Geometry</a></li>
+<li><a href="#sec-2-4-4">Exercise 1: A shell with hot inside ring</a></li>
+<li><a href="#sec-2-4-5">Exercise 2: A shell with hot inside ring and Neumann boundary outside</a></li>
+<li><a href="#sec-2-4-6">Project 1: Solve a given PDE with slightly non trivial domain in matlab.</a></li>
 </ul>
 </li>
 </ul>
@@ -253,21 +267,97 @@ Based on project reports
 <div class="outline-text-2" id="text-2">
 </div><div id="outline-container-sec-2-1" class="outline-3">
 <h3 id="sec-2-1">Definition of a PDE</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+A Partial Differential Equation (PDE) is an equation in which
+</p>
+
+<ul class="org-ul">
+<li>the unknown \(u(x,y,z)\) is a multivariable function
+</li>
+<li>at least one term in the equation must have some partial derivative of the unknown
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2">Examples</h3>
+<div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-sec-2-2-1" class="outline-4">
+<h4 id="sec-2-2-1">Poisson's equation [<a href="https://en.wikipedia.org/wiki/Poisson's_equation">Wiki</a>]</h4>
+<div class="outline-text-4" id="text-2-2-1">
+\begin{align*}
+\Dt \phi = f
+\end{align*}
+</div>
 </div>
 
 
-<div id="outline-container-sec-2-2" class="outline-3">
-<h3 id="sec-2-2">Some prominent PDEs and their background</h3>
+<div id="outline-container-sec-2-2-2" class="outline-4">
+<h4 id="sec-2-2-2">Heat Equation, Diffusion Equation [<a href="https://en.wikipedia.org/wiki/Heat_equation">Wiki</a>]</h4>
+<div class="outline-text-4" id="text-2-2-2">
+\begin{align*}
+\frac{\p u}{\p t} -\alpha \left(\frac{\p^2 u}{\p x^2} + \frac{\p^2 u}{\p y^2} + \frac{\p^2 u}{\p z^2} \right) = 0
+\end{align*}
+</div>
+</div>
+
+
+<div id="outline-container-sec-2-2-3" class="outline-4">
+<h4 id="sec-2-2-3">Convection–diffusion equation [<a href="https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation">Wiki</a>]</h4>
+<div class="outline-text-4" id="text-2-2-3">
+\begin{align*}
+\frac{\partial c}{\partial t}  = \nabla \cdot (D \nabla c) - \nabla \cdot (\vec{v} c) + R
+\end{align*}
+</div>
+</div>
+
+
+<div id="outline-container-sec-2-2-4" class="outline-4">
+<h4 id="sec-2-2-4">Wave equation [<a href="https://en.wikipedia.org/wiki/Wave_equation">Wiki</a>]</h4>
+<div class="outline-text-4" id="text-2-2-4">
+\begin{align*}
+{ \partial^2 u \over \partial t^2 } = c^2 \nabla^2 u
+\end{align*}
+</div>
+</div>
+
+<div id="outline-container-sec-2-2-5" class="outline-4">
+<h4 id="sec-2-2-5">Equations of Mechanical Engineering [<a href="https://in.mathworks.com/help/pde/structural-mechanics-equations.html?s_tid=srchtitle">Link</a>]</h4>
+</div>
+
+<div id="outline-container-sec-2-2-6" class="outline-4">
+<h4 id="sec-2-2-6">PDE is air pollution study [<a href="http://www.sciencedirect.com/science/article/pii/S0895717706000793">link</a>]</h4>
+</div>
+
+
+<div id="outline-container-sec-2-2-7" class="outline-4">
+<h4 id="sec-2-2-7">Navier-Stokes Equation [<a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations">Wiki</a>]</h4>
+</div>
 </div>
 
 
 <div id="outline-container-sec-2-3" class="outline-3">
-<h3 id="sec-2-3">PDE always needs to be complemented with  boundary conditions</h3>
+<h3 id="sec-2-3">Typical structure of a PDE problem:</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Typically, we will be looking for a function \(u\) which 
+</p>
+
+<ul class="org-ul">
+<li>satisfies a given PDE in the interior of a given domain \(\Om\)
+</li>
+<li>and some information about \(u\) will be given at the boundary of the domain \(\p \Om\).
+</li>
+</ul>
+</div>
 </div>
 
 
+
 <div id="outline-container-sec-2-4" class="outline-3">
-<h3 id="sec-2-4">Matlab pdetoolbox demo through examples</h3>
+<h3 id="sec-2-4">Matlab pdetoolbox demo</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
 A toolbox for solving 2d &amp; 3d generic pde using Finite Element Method
@@ -275,11 +365,11 @@ A toolbox for solving 2d &amp; 3d generic pde using Finite Element Method
 </div>
 
 <div id="outline-container-sec-2-4-1" class="outline-4">
-<h4 id="sec-2-4-1">Examples</h4>
+<h4 id="sec-2-4-1">Example 1: (Matlab tutorial) Solve Poisson's Equation on a Unit Disk</h4>
 <div class="outline-text-4" id="text-2-4-1">
-</div><ul class="org-ul"><li><a id="sec-2-4-1-1" name="sec-2-4-1-1"></a>Example 1: (Matlab tutorial) Solve Poisson's Equation on a Unit Disk<br  /><ul class="org-ul"><li><a id="sec-2-4-1-1-1" name="sec-2-4-1-1-1"></a>Follow along<br  /></li>
+</div><ul class="org-ul"><li><a id="sec-2-4-1-1" name="sec-2-4-1-1"></a>Follow along<br  /></li>
 
-<li><a id="sec-2-4-1-1-2" name="sec-2-4-1-1-2"></a>Review steps<br  /><div class="outline-text-6" id="text-2-4-1-1-2">
+<li><a id="sec-2-4-1-2" name="sec-2-4-1-2"></a>Review steps<br  /><div class="outline-text-5" id="text-2-4-1-2">
 <ul class="org-ul">
 <li>What was the domain?
 </li>
@@ -292,12 +382,14 @@ A toolbox for solving 2d &amp; 3d generic pde using Finite Element Method
 </ul>
 </div>
 </li></ul>
-</li>
+</div>
 
 
 
 
-<li><a id="sec-2-4-1-2" name="sec-2-4-1-2"></a>Example 2: Solve the Poisson equation in the unit square<br  /><div class="outline-text-5" id="text-2-4-1-2">
+<div id="outline-container-sec-2-4-2" class="outline-4">
+<h4 id="sec-2-4-2">Example 2: Solve the Poisson equation in the unit square</h4>
+<div class="outline-text-4" id="text-2-4-2">
 \begin{align*}
 \Dt(u) = 0, \qquad \textrm{for }   0 \le x,y, \le 1,
 \end{align*}
@@ -306,25 +398,55 @@ A toolbox for solving 2d &amp; 3d generic pde using Finite Element Method
 with boundary conditions: \(u(y,0) = 0,  u(1,y) = 1 \;\forall y\), and \(\frac{\p u}{\p y}(x,0) = \frac{\p u}{\p y}(x,1) =0 \) for all \(0 \le x \le 1\).
 </p>
 </div>
-</li>
+</div>
 
 
-<li><a id="sec-2-4-1-3" name="sec-2-4-1-3"></a>Example 3: (Matlab tutorial) Poisson's Equation with Complex 2-D Geometry<br  /></li>
+<div id="outline-container-sec-2-4-3" class="outline-4">
+<h4 id="sec-2-4-3">Example 3: (Matlab tutorial) Poisson's Equation with Complex 2-D Geometry</h4>
+</div>
 
-<li><a id="sec-2-4-1-4" name="sec-2-4-1-4"></a>Example 4: A shell with hot inside ring<br  /></li></ul>
+<div id="outline-container-sec-2-4-4" class="outline-4">
+<h4 id="sec-2-4-4">Exercise 1: A shell with hot inside ring</h4>
+<div class="outline-text-4" id="text-2-4-4">
+
+<div class="figure">
+<p><img src="./images/shellHeat.png" alt="shellHeat.png" />
+</p>
+</div>
+</div>
 </div>
 
 
 
-<div id="outline-container-sec-2-4-2" class="outline-4">
-<h4 id="sec-2-4-2">Project 1: Solve a given PDE with slightly non trivial domain in matlab.</h4>
-<div class="outline-text-4" id="text-2-4-2">
+<div id="outline-container-sec-2-4-5" class="outline-4">
+<h4 id="sec-2-4-5">Exercise 2: A shell with hot inside ring and Neumann boundary outside</h4>
+<div class="outline-text-4" id="text-2-4-5">
+
+<div class="figure">
+<p><img src="./images/shellHeatNeumannBd.png" alt="shellHeatNeumannBd.png" />
+</p>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div id="outline-container-sec-2-4-6" class="outline-4">
+<h4 id="sec-2-4-6">Project 1: Solve a given PDE with slightly non trivial domain in matlab.</h4>
+<div class="outline-text-4" id="text-2-4-6">
 <hr  />
 <hr  />
 </div>
 </div>
 </div>
 </div>
+
+
+
+
 
 <div id="outline-container-sec-3" class="outline-2">
 <h2 id="sec-3">Project 2: Poisson Equation, Diffusion, and heat equation</h2>
@@ -437,7 +559,7 @@ eg. image processing, climate simulation, cloud and rain formation, cloaking,
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Ajit Kumar</p>
-<p class="date">Created: 2017-08-10 Thu 23:46</p>
+<p class="date">Created: 2017-08-15 Tue 15:18</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
