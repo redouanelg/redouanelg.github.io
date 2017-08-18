@@ -12,7 +12,7 @@ title:            Ajit Kumar
 description:      'Assistant Professor <br> Department of Mathematics <br> Shiv Nadar University'
 url:              '/'
 baseurl:          '/'
-keywords:          'Ajit Shiv Nadar OpenFoam India'
+keywords:          'Ajit Kumar Shiv Nadar OpenFoam University India'
 
 author:
   name:           'Ajit Kumar'
@@ -27,3 +27,8 @@ include:
 
 #github:
 #  repo:           https://github.com/
+
+
+# search engine optimization - AK - Aug 16 - 2017
+plugins:
+  - jekyll-seo-tag
