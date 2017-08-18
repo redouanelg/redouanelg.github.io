@@ -2,6 +2,7 @@
 title: Course Information
 layout: default_pdeSideBar
 permalink: /teaching/MAT431/matlabDemo.html
+key: 4
 ---
 
 

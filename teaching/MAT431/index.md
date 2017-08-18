@@ -2,6 +2,8 @@
 title: Course Information
 layout: default_pdeSideBar
 permalink: /teaching/MAT431/index.html
+url: index.html
+key: 1
 ---
 
 Course Information

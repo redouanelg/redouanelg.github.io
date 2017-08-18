@@ -9,18 +9,20 @@
 
     <ul>
       <li>
-	<a class="sidebar-nav-item" href="index.html"> Course Description</a>
+	<a  class="sidebar-nav-item{% if page.key == 1 %} active{% endif %}" href="index.html"> Course Information </a>
       </li>
+
+      
       <li>
-	<a class="sidebar-nav-item" href="vectorCalculus.html"> Vector Calculus Review</a>
+	<a class="sidebar-nav-item{% if page.key == 2 %} active{% endif %}" href="vectorCalculus.html"> Vector Calculus Review</a>
       </li>
 
       <li>
-	<a class="sidebar-nav-item" href="pdeDef.html"> PDE Examples </a>
+	<a class="sidebar-nav-item{% if page.key == 3 %} active{% endif %}" href="pdeDef.html"> PDE Examples </a>
       </li>
 
       <li>
-	<a class="sidebar-nav-item" href="matlabDemo.html"> Introduction to Matlab pdetoolbox </a>
+	<a class="sidebar-nav-item{% if page.key == 4 %} active{% endif %}" href="matlabDemo.html"> Introduction to Matlab pdetoolbox </a>
       </li>
 
       

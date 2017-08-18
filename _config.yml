@@ -12,7 +12,7 @@ title:            Ajit Kumar
 description:      'Assistant Professor <br> Department of Mathematics <br> Shiv Nadar University'
 url:              '/'
 baseurl:          '/'
-keywords:          'Ajit Kumar Shiv Nadar OpenFoam University India'
+keywords:          'Ajit Kumar Shiv Nadar Openfoam numerical pde cfd fluid finite element assistant professor greater noida gomia'
 
 author:
   name:           'Ajit Kumar'
@@ -30,5 +30,5 @@ include:
 
 
 # search engine optimization - AK - Aug 16 - 2017
-plugins:
+gems:
   - jekyll-seo-tag

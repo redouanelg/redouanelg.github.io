@@ -99,13 +99,15 @@ html {
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  padding-right: 0.5em;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
 .sidebar-nav-item.active {
-  font-weight: bold;
+    font-weight: bold;
+    background-color: rgb(50, 50, 50);
 }
 
 /* Sticky sidebar

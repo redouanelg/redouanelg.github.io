@@ -2,6 +2,7 @@
 title: Course Information
 layout: default_pdeSideBar
 permalink: /teaching/MAT431/pdeDef.html
+key: 3
 ---
 
 
