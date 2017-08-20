@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body > <!--  class="theme-base-0f"> -->
+
+    <!-- side bar-->
+    
+    <div class="sidebar">
+      
+      <nav class="sidebar-nav" style="text-align:left;">
+
+	<!-- other tab according to _data/navigation.yml order  -->
+	<!-- {% for link in site.data.navigation.main %} -->
+	<!-- <a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}">{{ link.title }}</a> -->
+	<!-- {% endfor %} -->	
+      </nav>
+    </div>
+
+
+    
+
+
+    <div class="content container">
+      {{ content }}
+    </div>
+
+  </body>
+</html>
