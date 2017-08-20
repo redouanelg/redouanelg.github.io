@@ -11,10 +11,17 @@
       
       <nav class="sidebar-nav" style="text-align:left;">
 
-	<!-- other tab according to _data/navigation.yml order  -->
-	<!-- {% for link in site.data.navigation.main %} -->
-	<!-- <a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}">{{ link.title }}</a> -->
-	<!-- {% endfor %} -->	
+
+	{% assign similarItem = page.similarItemKey %}
+	
+	{% for link in site.posts %}
+
+	{% if link.categories  contains similarItem %}
+	
+	<a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}">{{ link.title}}</a>
+
+	{% endif %}
+	{% endfor %}	
       </nav>
     </div>
 
