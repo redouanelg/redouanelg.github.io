@@ -6,7 +6,6 @@ similarItemKey: pdeApplication
 excerpt_separator: <!--more-->
 ---
 
-
 <!---
 #+latex_header: \newcommand{\Sig}{\Sigma}
 #+latex_header: \newcommand{\Om}{\Omega}
@@ -121,31 +120,34 @@ $$
 
 where $$c = 1$$, $$k = 0.01$$. Boundary conditions are like $$u = 0 $$ on AD and BC. Other boundaries are insulated (zero Neumann boundary condition). In addition, $$u$$ satisfies the initial condition $$u(x,y,0) = \sin (\pi x)$$.
 
+### Example 2
+Consider a 1m x 0.1m two dimensional aluminium plate. Specific heat $$c = 9 \times 10^{-4} $$J/kg K, density $$\rho 2700$$ kg/$$m^3$$ ). You can consider the thickness of the plate to be 0.5 cm. 
+
+![alt text](/images/2dradiation01.png)
+
+The north and south side of the plate are insulated, the east and west sides are fixed at $$T = 0$$ for all time. The top and bottom side of the plate are in exposed to environment, and plate and environment are regularly exchanging heat at a rate which is proportional to the difference in plate temperature and environment temperature. 
+
+Derive an equation for $$T(x,y,t)$$ : temperature at point $$(x,y)$$ at time $$t$$. Then solve in matlab various choices of environment temperature with initial condition $$T(x,y,0) = \sin (\pi x)$$.
 
 
+### Example 3 : Heating a plate with  stove
 
-### 1d - Dirichlet and Neumann BC
+![alt text](/images/2dradiation02.png)
 
-<p class="message"> coming up </p>
-
-
-### 2d - Dirichlet's BC
-
-<p class="message"> coming up </p>
-
-### 2d - Dirichlet  and Neumann BC
-
-<p class="message"> coming up </p>
-
-### 3d - Dirichlet and Neumann BC
-
-<p class="message"> coming up </p>
-
-### 3d - Dirichlet and Neumann BC
+Simulate the situation described in the above figure with $$Q = 50\exp \left(\frac{1}{1 + x^2 + y^2}\right)$$ and appropriate choice of $$\rho, c, k, h, T_{ext}$$s. Try to give some physical analogy of the source term $$Q$$.
 
 
-<p class="message"> coming up </p>
+### Example 4 : Heat sink problem
 
+<p class="message">
+coming shortly 
+</p>
+
+### Example 5 : A 3d problem
+
+<p class="message">
+coming shortly 
+</p>
 
 
 
