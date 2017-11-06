@@ -1,5 +1,5 @@
 ---
-title: Plotting Vector Fields in Pythong
+title: Plotting Vector Fields in Python
 layout: default_sympySideBar
 categories: sympyTutorial
 permalink: /sympy/vectorFields/vectorFields.html
