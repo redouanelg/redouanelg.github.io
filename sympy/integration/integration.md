@@ -87,7 +87,7 @@ $$16 \pi^{2}$$
 
 ## Example
 
-Evaluate $\displaystyle \int_A^B 2xy\,dx + (x^2 - y^2)\, dy$ along the arc of the circle $x^2 + y^2 = 1$ in the first quadrant from $A(1,0)$ to $B(1,0)$.
+Evaluate $$\displaystyle \int_A^B 2xy\,dx + (x^2 - y^2)\, dy$$ along the arc of the circle $$x^2 + y^2 = 1$$ in the first quadrant from $$A(1,0)$$ to $$B(1,0)$$.
 
 
 ```python
