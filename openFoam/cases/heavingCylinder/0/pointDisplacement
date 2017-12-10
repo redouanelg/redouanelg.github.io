@@ -1,0 +1,89 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     3.2                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  | For copyright notice see file Copyright         |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       pointVectorField;
+    location    "10";
+    object      pointDisplacement;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 0 0 0 0 0];
+
+internalField   uniform (0 0 0); 
+
+
+boundaryField
+{
+    frontAndBack
+    {
+        type            empty;
+    }
+    top
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    inlet
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    outlet
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    floatingObject
+    {
+        type            sixDoFRigidBodyDisplacement;
+        centreOfMass    (0 0 0.01875);
+        initialCentreOfMass (0 0 0.01875);
+        initialOrientation (1 0 0 0 1 0 0 0 1);
+        momentOfInertia (0.006932 0.006932 5.824e-05);
+        mass            0.083;
+        report          true;
+        value uniform   (0 0 0);
+        // constraints
+        // {
+        //     maxIterations   500;
+        //     fixedLine1
+        //     {
+        //         sixDoFRigidBodyMotionConstraint fixedLine;
+        //         tolerance       1e-09;
+        //         relaxationFactor 0.7;
+        //         fixedLineCoeffs 
+        //         {
+        //             refPoint        (0 0 0.01875);
+        //             direction       (0 1 0);
+        //         }
+        //     }
+        //     fixedAxis1
+        //     {
+        //         sixDoFRigidBodyMotionConstraint fixedAxis;
+        //         tolerance       1e-06;
+        //         relaxationFactor 0.7;
+        //         fixedAxisCoeffs 
+        //         {
+        //             axis            (0 0 1);
+        //         }
+        //     }
+        // }
+        rhoInf          1;
+    }
+    bottom
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+}
+
+
+// ************************************************************************* //

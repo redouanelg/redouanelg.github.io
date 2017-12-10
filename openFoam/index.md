@@ -1,6 +1,6 @@
 ---
-layout: default
-title: My OpenFoam blogs
+layout: openFoamSideBar
+title: My OpenFoam projects
 ---
 
 ## {{page.title}}
