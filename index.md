@@ -10,11 +10,12 @@ I am interested in Machine learning for oceanic, atmospheric and climate science
 
 Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) at Grenoble, France. My postdoc is funded by CNES (French Space Agency). I try to use machine learning methods for the inversion of SWOT data (CNES/NASA mission).
 
-[comment]: # <ul>
-[comment]: # <li> <h2> <a href="/openFoam/"> My simulation projects </a>  </h2></li>
-[comment]: # <li> <h2> <a href="/gitNotes/"> Why do backups, GO GIT IT ! </a>  </h2></li>
-[comment]: # <li> <h2> <a href="/sympy/"> Minimal SymPy Tutorial  </a>  </h2></li>
-[comment]: # </ul>
-
+{% comment %} 
+<ul>
+<li> <h2> <a href="/openFoam/"> My simulation projects </a>  </h2></li>
+<li> <h2> <a href="/gitNotes/"> Why do backups, GO GIT IT ! </a>  </h2></li>
+<li> <h2> <a href="/sympy/"> Minimal SymPy Tutorial  </a>  </h2></li>
+</ul>
+{% endcomment %}
 
 
