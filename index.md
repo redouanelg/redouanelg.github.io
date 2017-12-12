@@ -10,6 +10,10 @@ I am interested in Machine learning for oceanic, atmospheric and climate science
 
 Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) at Grenoble, France. My postdoc is funded by CNES (French Space Agency). I try to use machine learning methods for the inversion of SWOT data (CNES/NASA mission).
 
+> [Google Scholar Profile](https://scholar.google.fr/citations?user=DuiyaQoAAAAJ&hl=en){:target="_blank"}
+
+> [Researchgate](https://www.researchgate.net/profile/Redouane_Lguensat)
+
 {% comment %} 
 <ul>
 <li> <h2> <a href="/openFoam/"> My simulation projects </a>  </h2></li>
