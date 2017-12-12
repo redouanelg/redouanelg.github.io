@@ -7,15 +7,15 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            Ajit Kumar
+title:            Redouane Lguensat
 #tagline:          'A Jekyll theme'
-description:      'Assistant Professor <br> Department of Mathematics <br> Shiv Nadar University'
+description:      'I play with ocean data'
 url:              '/'
 baseurl:          '/'
-keywords:          'Ajit Kumar Shiv Nadar Openfoam numerical pde cfd fluid finite element assistant professor greater noida gomia'
+keywords:          'redouane lguensat machine learning ocean sea surface temperature height data assimilation'
 
 author:
-  name:           'Ajit Kumar'
+  name:           'Redouane Lguensat'
   url:
 
 include:
