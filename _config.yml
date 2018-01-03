@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-#highlighter:      pygments
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -9,7 +9,7 @@ permalink:        pretty
 # Setup
 title:            Redouane Lguensat
 #tagline:          'A Jekyll theme'
-description:      'I play with ocean data'
+description:      'Learning from geoscience data'
 url:              '/'
 baseurl:          '/'
 keywords:          'redouane lguensat machine learning ocean sea surface temperature height data assimilation'
