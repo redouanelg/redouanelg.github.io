@@ -29,6 +29,6 @@ Redouane Lguensat was born in Casablanca, Morocco in 1991. He received an Engine
 (inspired from the great Shinichi Mochizuki)
 
 ''' 
-As of 5 December 2017, 12:00: I'm doing fine.
+As of 15 January 2018, 12:00: I'm doing fine.
 Location: Grenoble, France
 '''
