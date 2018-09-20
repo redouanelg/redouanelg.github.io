@@ -23,12 +23,12 @@ Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) a
 
 ### Biography
 
-Redouane Lguensat was born in Casablanca, Morocco in 1991. He received an Engineering degree in information processing systems from Télécom Bretagne, France, and a Master of research in image processing at Rennes I university, France, in 2014. He received his PhD degree in Computer Vision applied to ocean remote sensing in 2017 from IMT Atlantique, Brest, France. Currently he is pursuing a CNES funded Postdoc at Institut des Géosciences et de l'Environnement, Grenoble, France.
+Redouane Lguensat was born in Casablanca, Morocco in 1991. He received both an Engineering degree in IT from IMT Atlantique (formerly Télécom Bretagne), and a Master of research in Image Processing from Rennes I University, France, in 2014. He received his PhD degree in Computer Vision applied to Ocean Remote Sensing in 2017 from IMT Atlantique, Brest, France. Currently he is pursuing a CNES funded Postdoc at Institut des Géosciences et de l'Environnement, Grenoble, France. 
 
 ### Safety Confirmation Information for Redouane Lguensat
 (inspired from the great Shinichi Mochizuki)
 
 ''' 
-As of 15 January 2018, 12:00: I'm doing fine.
+As of 20 September 2018, 12:00: I'm doing fine.
 Location: Grenoble, France
 '''
