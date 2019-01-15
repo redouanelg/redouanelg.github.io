@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+You'd better take a look at my Google Scholar profile! this page can be outdated
+
 # Submitted/Working on..
 
 <img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/eddynet.jpg" width="350" height="200"> Redouane Lguensat, Miao Sun, Ronan Fablet, Evan Mason, Pierre Tandeo, Ge Chen. **EddyNet: A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies** [pdf](https://arxiv.org/abs/1711.03954){:target="_blank"}
