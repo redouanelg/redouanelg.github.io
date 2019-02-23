@@ -14,29 +14,21 @@ The complete list of publications can be found in my CV
 **Data-driven Interpolation of Sea Level Anomalies using Analog Data Assimilations**. [pdf](https://hal.archives-ouvertes.fr/hal-01609851){:target="_blank"}
 
 <br><br>
-<br><br>
-<br><br>
 
 # Selected journal papers
 
 <img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/analog.png" width="350" height="200"> LGUENSAT Redouane, TANDEO Pierre, AILLIOT Pierre, PULIDO Manuel and FABLET Ronan. **The Analog Data Assimilation**. Monthly Weather Review, 2017, vol. 145, no 10, p. 4093-4107. [journal webpage](http://journals.ametsoc.org/doi/abs/10.1175/MWR-D-16-0441.1){:target="_blank"}
 
 <br><br>
-<br><br>
-<br><br>
 
 <img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/ieeeTCI.png" width="350" height="200"> Ronan Fablet, Phi Huynh Viet, and Redouane Lguensat. (2017) **Data-Driven Models for the Spatio-Temporal Interpolation of Satellite-Derived SST Fields**. IEEE Transactions on Computational Imaging 3:4, 647-657. [journal webpage](http://ieeexplore.ieee.org/document/8025578/){:target="_blank"}, [pdf](https://www.researchgate.net/publication/319474901_Data-driven_Models_for_the_Spatio-Temporal_Interpolation_of_satellite-derived_SST_Fields){:target="_blank"}
 
 <br><br>
-<br><br>
-<br><br>
 
 # Selected conference papers
 
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/eddynet.jpeg" width="200" height="200"> Redouane Lguensat, Miao Sun, Ronan Fablet, Evan Mason, Pierre Tandeo, Ge Chen. **EddyNet: A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies**. IEEE Geoscience and Remote Sensing Symposium (IGARSS) 2018, Valencia, Spain. [IEEExplore link](https://ieeexplore.ieee.org/document/8518411){:target="_blank"}. [pdf](https://arxiv.org/abs/1711.03954){:target="_blank"}
+<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/eddynet.jpeg" width="350" height="200"> Redouane Lguensat, Miao Sun, Ronan Fablet, Evan Mason, Pierre Tandeo, Ge Chen. **EddyNet: A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies**. IEEE Geoscience and Remote Sensing Symposium (IGARSS) 2018, Valencia, Spain. [IEEExplore link](https://ieeexplore.ieee.org/document/8518411){:target="_blank"}. [pdf](https://arxiv.org/abs/1711.03954){:target="_blank"}
 
-<br><br>
-<br><br>
 <br><br>
 
 <img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/oceans2016.PNG" width="350" height="80"> LGUENSAT Redouane, TANDEO Pierre, AILLIOT Pierre, FABLET Ronan, CHAPRON Bertrand
