@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Publications
+title: Selected Publications
 permalink: /publications/
 ---
 
 You'd better take a look at my Google Scholar profile! this page can be outdated
+<br><br>
+The complete list of publications can be found in my CV
 
 # Submitted/Working on..
 
@@ -29,7 +31,7 @@ You'd better take a look at my Google Scholar profile! this page can be outdated
 <br><br>
 <br><br>
 
-# Selected conference papers (still updating..)
+# Selected conference papers
 
 <img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/eddynet.jpeg" width="350" height="200"> Redouane Lguensat, Miao Sun, Ronan Fablet, Evan Mason, Pierre Tandeo, Ge Chen. **EddyNet: A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies**. IEEE Geoscience and Remote Sensing Symposium (IGARSS) 2018, Valencia, Spain. [IEEExplore link](https://ieeexplore.ieee.org/document/8518411){:target="_blank"}. [pdf](https://arxiv.org/abs/1711.03954){:target="_blank"}
 
