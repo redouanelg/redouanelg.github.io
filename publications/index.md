@@ -17,7 +17,7 @@ You'd better take a look at my Google Scholar profile! this page can be outdated
 
 # Selected journal papers
 
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/anda.png" width="350" height="100"> LGUENSAT Redouane, TANDEO Pierre, AILLIOT Pierre, PULIDO Manuel and FABLET Ronan. **The Analog Data Assimilation**. Monthly Weather Review, 2017, vol. 145, no 10, p. 4093-4107. [journal webpage](http://journals.ametsoc.org/doi/abs/10.1175/MWR-D-16-0441.1){:target="_blank"}
+<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/analog.png" width="350" height="100"> LGUENSAT Redouane, TANDEO Pierre, AILLIOT Pierre, PULIDO Manuel and FABLET Ronan. **The Analog Data Assimilation**. Monthly Weather Review, 2017, vol. 145, no 10, p. 4093-4107. [journal webpage](http://journals.ametsoc.org/doi/abs/10.1175/MWR-D-16-0441.1){:target="_blank"}
 
 <br><br>
 <br><br>
