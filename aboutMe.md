@@ -29,6 +29,6 @@ Redouane Lguensat was born in Casablanca, Morocco in 1991. He received both an E
 (inspired from the great Shinichi Mochizuki)
 
 ''' 
-As of 15 January 2019, 12:00: I'm doing fine.
+As of 27 March 2019, 12:00: I'm doing fine.
 Location: Grenoble, France
 '''
