@@ -10,14 +10,16 @@ The complete list of publications can be found in my CV
 
 # Submitted/Working on..
 
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/slainterp.png" width="350" height="200"> Redouane Lguensat, Phi Huynh Viet, Miao Sun, Ge Chen, Tian Fenglin, Bertrand Chapron, Ronan Fablet 
-**Data-driven Interpolation of Sea Level Anomalies using Analog Data Assimilations**. [pdf](https://hal.archives-ouvertes.fr/hal-01609851){:target="_blank"}
+...
+
+# Most cited journal papers
+
+<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/analog.png" width="350" height="200"> LGUENSAT Redouane, TANDEO Pierre, AILLIOT Pierre, PULIDO Manuel and FABLET Ronan. **The Analog Data Assimilation**. Monthly Weather Review, 2017, vol. 145, no 10, p. 4093-4107. [journal webpage](http://journals.ametsoc.org/doi/abs/10.1175/MWR-D-16-0441.1){:target="_blank"}
 
 <br><br>
 
-# Selected journal papers
-
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/analog.png" width="350" height="200"> LGUENSAT Redouane, TANDEO Pierre, AILLIOT Pierre, PULIDO Manuel and FABLET Ronan. **The Analog Data Assimilation**. Monthly Weather Review, 2017, vol. 145, no 10, p. 4093-4107. [journal webpage](http://journals.ametsoc.org/doi/abs/10.1175/MWR-D-16-0441.1){:target="_blank"}
+<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/slainterp.png" width="350" height="200"> Redouane Lguensat, Phi Huynh Viet, Miao Sun, Ge Chen, Tian Fenglin, Bertrand Chapron, Ronan Fablet 
+**Data-driven Interpolation of Sea Level Anomalies using Analog Data Assimilations**. Remote Sensing, 2019. [pdf](https://hal.archives-ouvertes.fr/hal-01609851){:target="_blank"}
 
 <br><br>
 
