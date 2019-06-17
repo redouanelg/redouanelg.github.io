@@ -14,12 +14,18 @@ Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) a
 
 > [Researchgate](https://www.researchgate.net/profile/Redouane_Lguensat)
 
-{% comment %} 
-<ul>
-<li> <h2> <a href="/openFoam/"> My simulation projects </a>  </h2></li>
-<li> <h2> <a href="/gitNotes/"> Why do backups, GO GIT IT ! </a>  </h2></li>
-<li> <h2> <a href="/sympy/"> Minimal SymPy Tutorial  </a>  </h2></li>
-</ul>
-{% endcomment %}
+
+## News:
+
+* June 2019
+  * I am a convener of the AGU session: "Innovation and Exploration with Machine Learning in Ocean and Atmospheric Sciences: Global and Regional Applications". Consider submitting an abstract! -> [More...](https://agu.confex.com/agu/fm19/prelim.cgi/Session/85463)
+  * Orange
+  * Banana
+* Dairy
+  * Milk
+  * Cheese
+  
+
+  
 
 
