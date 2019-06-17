@@ -24,7 +24,7 @@ Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) a
   * The first [IndabaXMorocco](https://indabaxmorocco.github.com) was a success! Glad to have taken part of the general chair committee.
   * Poster presentation at the European Geophysical Union 2019; Vienna, Austria. [Abstract](https://meetingorganizer.copernicus.org/EGU2019/EGU2019-15250.pdf)
 * February 2019
- * Talk at [AI & Climate-Ocean-Atmoshpere](https://www.imt-atlantique.fr/fr/conferences/ia-climat-ocean-atmosphere) workshop; Rennes, France
+  * Talk at [AI & Climate-Ocean-Atmoshpere](https://www.imt-atlantique.fr/fr/conferences/ia-climat-ocean-atmosphere) workshop; Rennes, France
   
 
   
