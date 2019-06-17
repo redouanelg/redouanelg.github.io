@@ -29,14 +29,12 @@ updating..
 
 # Selected conference papers
 
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/eddynet.jpeg" width="300" height="200"> Redouane Lguensat, Miao Sun, Ronan Fablet, Evan Mason, Pierre Tandeo, Ge Chen. **EddyNet: A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies**. IEEE Geoscience and Remote Sensing Symposium (IGARSS) 2018, Valencia, Spain. [IEEExplore link](https://ieeexplore.ieee.org/document/8518411){:target="_blank"}. [pdf](https://arxiv.org/abs/1711.03954){:target="_blank"}
+<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/eddynet.jpeg" width="200" height="200"> Redouane Lguensat, Miao Sun, Ronan Fablet, Evan Mason, Pierre Tandeo, Ge Chen. **EddyNet: A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies**. IEEE Geoscience and Remote Sensing Symposium (IGARSS) 2018, Valencia, Spain. [IEEExplore link](https://ieeexplore.ieee.org/document/8518411){:target="_blank"}. [pdf](https://arxiv.org/abs/1711.03954){:target="_blank"}
 
 <br><br>
 
 <img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/oceans2016.PNG" width="350" height="80"> LGUENSAT Redouane, TANDEO Pierre, AILLIOT Pierre, FABLET Ronan, CHAPRON Bertrand
 **Using archived datasets for missing data interpolation in ocean remote sensing observation series**. OCEANS 2016 - Shanghai : MTS/IEEE international conference, IEEE/MTS, 10-13 april 2016, Shanghai, China, 2016, pp. 1-6. [IEEExplore link](http://ieeexplore.ieee.org/document/7485433/){:target="_blank"}, [pdf](https://portail.telecom-bretagne.eu/publi/public/fic_download.jsp?id=65287){:target="_blank"}
-
-
 
 
 {% comment %}
