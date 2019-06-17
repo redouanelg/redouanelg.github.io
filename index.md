@@ -18,10 +18,10 @@ Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) a
 ## News:
 
 * June 2019
-  * I am a convener of the AGU session: <b>"Innovation and Exploration with Machine Learning in Ocean and Atmospheric Sciences: Global and Regional Applications"<\b>. Consider submitting an abstract! Deadline 31 July. [More info...](https://agu.confex.com/agu/fm19/prelim.cgi/Session/85463)
+  * I am a convener of the AGU session: <b>"Innovation and Exploration with Machine Learning in Ocean and Atmospheric Sciences: Global and Regional Applications"</b>. Consider submitting an abstract! Deadline 31 July. [More info...](https://agu.confex.com/agu/fm19/prelim.cgi/Session/85463)
   * Invited talk: "Physical Oceanography meets Deep Learning"; Data Science for the future, a workshop of [Global Science Week 2019](https://edu.univ-grenoble-alpes.fr/research-and-innovation/science-week/data-science-for-the-future-784127.htm?RH=1550237818168), Grenoble, France.
 * April 2019
-  * The first [IndabaXMorocco](indabaxmorocco.github.com) was a success! Thanks to the organizing team.
+  * The first [IndabaXMorocco](https://indabaxmorocco.github.com) was a success! Glad to have been a part of the organizing team.
   
 
   
