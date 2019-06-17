@@ -4,7 +4,7 @@ title: Selected Publications
 permalink: /publications/
 ---
 
-You'd better take a look at my Google Scholar profile! this page can be outdated
+You'd better take a look at my [Google Scholar profile](https://scholar.google.fr/citations?user=DuiyaQoAAAAJ&hl=fr)! this page can be outdated
 <br><br>
 The complete list of publications can be found in my CV
 
