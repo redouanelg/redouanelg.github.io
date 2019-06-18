@@ -23,10 +23,14 @@ Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) a
 
 ### Biography
 
-* 2017: PhD in Computer Vision in 2017 from Université Bretagne Loire/IMT Atlantique, under the supervision of Prof. Ronan Fablet. PhD manuscript can be accessed [here](https://tel.archives-ouvertes.fr/tel-01784196). Committee:
-  * fff
-  * fgg
-* 2014: Engineering degree in IT from IMT Atlantique[https://www.imt-atlantique.fr/en] (ex Télécom Bretagne) + Master of research [SISEA](https://istic.univ-rennes1.fr/master-2-eea-parcours-signal-image-systemes-integres-automatique-sisea-0) in Image Processing from Rennes I University. 
+* 2017: PhD in Computer Vision in 2017 from Université Bretagne Loire/IMT Atlantique, under the supervision of Prof. Ronan Fablet. PhD manuscript can be accessed [here](https://tel.archives-ouvertes.fr/tel-01784196). Thesis committee:
+  * Prof. Sylvie Thiria - Université Paris VI (Chair)
+  * Prof. Antonio Turiel - Institut de Ciències des Mar (Reviewer)
+  * Prof. Marc Bocquet - Ecole des Ponts- ParisTech (Reviewer)
+  * Dr. Bertrand Chapron - Ifremer 
+  * Dr. Pierre Ailliot - Université de Bretagne Occidentale
+  * Dr. Clément Ubelmann - CLS
+* 2014: Engineering degree in IT from [IMT Atlantique][https://www.imt-atlantique.fr/en] (*ex Télécom Bretagne*) + Master of research [SISEA](https://istic.univ-rennes1.fr/master-2-eea-parcours-signal-image-systemes-integres-automatique-sisea-0) (Signal, Image, Embedded system and Automatics) from Rennes I University. 
 
 ### Safety Confirmation Information for Redouane Lguensat
 (inspired from the great [Shinichi Mochizuki](http://www.kurims.kyoto-u.ac.jp/~motizuki/news-english.html))
