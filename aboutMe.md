@@ -25,7 +25,7 @@ Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) a
 
 * 2017: PhD in Computer Vision in 2017 from Université Bretagne Loire/IMT Atlantique, under the supervision of Prof. Ronan Fablet. PhD manuscript can be accessed [here](https://tel.archives-ouvertes.fr/tel-01784196). Thesis committee:
   * Prof. Sylvie Thiria - Université Paris VI (Chair)
-  * Prof. Antonio Turiel - Institut de Ciències des Mar (Reviewer)
+  * Prof. Antonio Turiel - Institut de Ciències del Mar, Spain (Reviewer)
   * Prof. Marc Bocquet - Ecole des Ponts- ParisTech (Reviewer)
   * Dr. Bertrand Chapron - Ifremer 
   * Dr. Pierre Ailliot - Université de Bretagne Occidentale
