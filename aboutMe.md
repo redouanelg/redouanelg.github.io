@@ -30,7 +30,7 @@ Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) a
   * Dr. Bertrand Chapron - Ifremer 
   * Dr. Pierre Ailliot - Université de Bretagne Occidentale
   * Dr. Clément Ubelmann - CLS
-* 2014: Engineering degree in IT from [IMT Atlantique][https://www.imt-atlantique.fr/en] (*ex Télécom Bretagne*) + Master of research [SISEA](https://istic.univ-rennes1.fr/master-2-eea-parcours-signal-image-systemes-integres-automatique-sisea-0) (Signal, Image, Embedded system and Automatics) from Rennes I University. 
+* 2014: Engineering degree in IT from [IMT Atlantique](https://www.imt-atlantique.fr/en) (*ex Télécom Bretagne*) + Master of research [SISEA](https://istic.univ-rennes1.fr/master-2-eea-parcours-signal-image-systemes-integres-automatique-sisea-0) (Signal, Image, Embedded system and Automatics) from Rennes I University. 
 
 ### Safety Confirmation Information for Redouane Lguensat
 (inspired from the great [Shinichi Mochizuki](http://www.kurims.kyoto-u.ac.jp/~motizuki/news-english.html))
