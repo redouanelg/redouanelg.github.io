@@ -36,11 +36,9 @@ Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) a
 
 My Erdös Number is 6 
 
-<img src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/erdos.png" width="450" height="200">
+<img src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/erdos.png" width="550" height="200">
 
 &nbsp;
-&nbsp;
-
 Curious to know yours? Check [here](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)
 
 ### Safety Confirmation Information for Redouane Lguensat
