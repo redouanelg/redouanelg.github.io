@@ -35,9 +35,11 @@ Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) a
 ### Erdös Number
 
 My Erdös Number is 6 
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/erdos.png" width="450" height="200">
 
-<br />
+<img src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/erdos.png" width="450" height="200">
+
+&nbsp;
+&nbsp;
 
 Curious to know yours? Check [here](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)
 
@@ -45,6 +47,6 @@ Curious to know yours? Check [here](https://mathscinet.ams.org/mathscinet/freeTo
 (inspired from the great [Shinichi Mochizuki](http://www.kurims.kyoto-u.ac.jp/~motizuki/news-english.html))
 
 ''' 
-As of 16 June 2019, 12:00: I'm doing fine.
+As of 1 July 2019, 12:00: I'm doing fine.
 Location: Grenoble, France
 '''
