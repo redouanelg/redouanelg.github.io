@@ -32,6 +32,11 @@ Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) a
   * Dr. Clément Ubelmann - CLS
 * 2014: Engineering degree in IT from [IMT Atlantique](https://www.imt-atlantique.fr/en) (*ex Télécom Bretagne*) + Master of research [SISEA](https://istic.univ-rennes1.fr/master-2-eea-parcours-signal-image-systemes-integres-automatique-sisea-0) (Signal, Image, Embedded system and Automatics) from Rennes I University. 
 
+### Erdös Number
+
+My Erdös Number is 6
+Curious to know yours? Check [here](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)
+
 ### Safety Confirmation Information for Redouane Lguensat
 (inspired from the great [Shinichi Mochizuki](http://www.kurims.kyoto-u.ac.jp/~motizuki/news-english.html))
 
