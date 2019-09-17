@@ -19,7 +19,7 @@ redouane.lguensat@univ-grenoble-alpes.fr
 
 ### Current Research Project
 
-Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) at Grenoble, France. My postdoc is funded by CNES (French Space Agency). I try to use machine learning methods for the inversion of SWOT data (CNES/NASA mission). More details will be posted later.
+Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) at Grenoble, France. My postdoc is funded by CNES (French Space Agency). I try to use machine learning methods for the inversion of SWOT data (CNES/NASA mission). 
 
 ### Biography
 
@@ -45,6 +45,6 @@ Curious to know yours? Check [here](https://mathscinet.ams.org/mathscinet/freeTo
 (inspired from the great [Shinichi Mochizuki](http://www.kurims.kyoto-u.ac.jp/~motizuki/news-english.html))
 
 ''' 
-As of 1 July 2019, 12:00: I'm doing fine.
+As of 17 September 2019, 12:00: I'm doing fine.
 Location: Grenoble, France
 '''
