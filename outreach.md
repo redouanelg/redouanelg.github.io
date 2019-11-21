@@ -12,8 +12,12 @@ Postdoc researcher funded by <a href="https://cnes.fr/en">CNES</a><br>
 redouane.lguensat@univ-grenoble-alpes.fr
 </p>
 
-### Research Interests
+### Popscience
 
- * Nov 2019: [Festival Monshoot Morocco](http://moonshotmorocco.com) [Moroccan Darija]
- * Nov 2019: Podcast with [Data Maroc](https://www.datamaroc.com/data-science/data-maroc-podcast-ep-5/) [Moroccan Darija]
+ * Nov 2019: Two workshops at [Festival Monshoot Morocco](http://moonshotmorocco.com), first one on AI in general and the second on AI for Earth Observation. Target audience: public youth; Language: Moroccan Darija.
+ * Nov 2019: Podcast guest at [Data Maroc](https://www.datamaroc.com/data-science/data-maroc-podcast-ep-5/) Target audience: internet; Language: Moroccan Darija.
+
+### AI in Moroccan Darija
+
+ * I am running a personal project aiming to popularize AI in Moroccan Darija for high school students. This includes writing Jupyter notebooks in Darija and explaining AI concepts in simple words. Some of the outputs are shared in the following Github account https://github.com/redouanelg/AppliedMathsInDarija
 
