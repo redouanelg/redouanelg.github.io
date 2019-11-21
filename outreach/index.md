@@ -16,7 +16,8 @@ redouane.lguensat@univ-grenoble-alpes.fr
 ### Popscience
 
  * Nov 2019: Two workshops at [Festival Monshoot Morocco](http://moonshotmorocco.com), first one on AI in general and the second on AI for Earth Observation. Target audience: public youth; Language: Moroccan Darija.
- * Nov 2019: Podcast guest at [Data Maroc](https://www.datamaroc.com/data-science/data-maroc-podcast-ep-5/) Target audience: internet; Language: Moroccan Darija.
+ * Nov 2019: Podcast guest at [Data Maroc](https://www.datamaroc.com/data-science/data-maroc-podcast-ep-5/). Target audience: internet; Language: Moroccan Darija.
+ * July 2019: Podcast guest at [GeekBlabla](https://geeksblabla.com). Target audience: internet; Language: Moroccan Darija.
 
 ### AI in Moroccan Darija
 
