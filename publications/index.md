@@ -29,13 +29,13 @@ updating..
 
 # Selected conference papers
 
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/QGNET.png" width="200" height="200"> R. Lguensat, J. Le Sommer, R. Fablet, S. Metref, E. Cosme. **Learning Generalized
+<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/QGNET.png" width="350" height="200"> R. Lguensat, J. Le Sommer, R. Fablet, S. Metref, E. Cosme. **Learning Generalized
 Quasi-Geostrophic Models Using Deep Neural Numerical Models** Machine Learning and
 the Physical Sciences workshop, NeurIPS 2019. Vancouver, Canada. [Arxiv](https://arxiv.org/abs/1911.08856){:target="_blank"}
 
 <br><br>
 
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/eddynet.jpeg" width="200" height="200"> Redouane Lguensat, Miao Sun, Ronan Fablet, Evan Mason, Pierre Tandeo, Ge Chen. **EddyNet: A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies**. IEEE Geoscience and Remote Sensing Symposium (IGARSS) 2018, Valencia, Spain. [IEEExplore link](https://ieeexplore.ieee.org/document/8518411){:target="_blank"}. [pdf](https://arxiv.org/abs/1711.03954){:target="_blank"}
+<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/eddynet.jpeg" width="350" height="200"> Redouane Lguensat, Miao Sun, Ronan Fablet, Evan Mason, Pierre Tandeo, Ge Chen. **EddyNet: A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies**. IEEE Geoscience and Remote Sensing Symposium (IGARSS) 2018, Valencia, Spain. [IEEExplore link](https://ieeexplore.ieee.org/document/8518411){:target="_blank"}. [pdf](https://arxiv.org/abs/1711.03954){:target="_blank"}
 
 <br><br>
 
