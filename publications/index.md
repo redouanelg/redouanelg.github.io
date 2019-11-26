@@ -14,7 +14,7 @@ updating..
 
 # Most cited journal papers
 
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/analog.png" width="350" height="200"> LGUENSAT Redouane, TANDEO Pierre, AILLIOT Pierre, PULIDO Manuel and FABLET Ronan. **The Analog Data Assimilation**. Monthly Weather Review, 2017, vol. 145, no 10, p. 4093-4107. [journal webpage](http://journals.ametsoc.org/doi/abs/10.1175/MWR-D-16-0441.1){:target="_blank"}
+<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/analog.png" width="350" height="200"> Redouane Lguensat, Pierre Tandeo, Pierre Ailliot, Manuel Pulido and Ronan Fablet. **The Analog Data Assimilation**. Monthly Weather Review, 2017, vol. 145, no 10, p. 4093-4107. [journal webpage](http://journals.ametsoc.org/doi/abs/10.1175/MWR-D-16-0441.1){:target="_blank"}
 
 <br><br>
 
@@ -29,7 +29,7 @@ updating..
 
 # Selected conference papers
 
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/QGNET.png" width="350" height="200"> R. Lguensat, J. Le Sommer, R. Fablet, S. Metref, E. Cosme. **Learning Generalized
+<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/QGNET.png" width="350" height="200"> Redouane Lguensat, Julien Le Sommer, Ronan Fablet, Sammy Metref, Emmanuel Cosme. **Learning Generalized
 Quasi-Geostrophic Models Using Deep Neural Numerical Models** Machine Learning and
 the Physical Sciences workshop, NeurIPS 2019. Vancouver, Canada. [Arxiv](https://arxiv.org/abs/1911.08856){:target="_blank"}
 
@@ -39,7 +39,7 @@ the Physical Sciences workshop, NeurIPS 2019. Vancouver, Canada. [Arxiv](https:/
 
 <br><br>
 
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/oceans2016.PNG" width="350" height="80"> LGUENSAT Redouane, TANDEO Pierre, AILLIOT Pierre, FABLET Ronan, CHAPRON Bertrand
+<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/oceans2016.PNG" width="350" height="80">  Redouane Lguensat, Pierre Tandeo, Pierre Ailliot, Ronan Fablet, Bertrand Chapron
 **Using archived datasets for missing data interpolation in ocean remote sensing observation series**. OCEANS 2016 - Shanghai : MTS/IEEE international conference, IEEE/MTS, 10-13 april 2016, Shanghai, China, 2016, pp. 1-6. [IEEExplore link](http://ieeexplore.ieee.org/document/7485433/){:target="_blank"}, [pdf](https://portail.telecom-bretagne.eu/publi/public/fic_download.jsp?id=65287){:target="_blank"}
 
 
