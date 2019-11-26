@@ -18,7 +18,7 @@ Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) a
 ## News:
 
 * October 2019
-  *  Our paper “Learning Generalized Quasi-Geostrophic Models Using Deep Neural Numerical Models” is accepted at the [Machine Learning and the Physical Sciences workshop](https://ml4physicalsciences.github.io) at NeurIPS 2019
+  *  Our paper “Learning Generalized Quasi-Geostrophic Models Using Deep Neural Numerical Models” is accepted at the [Machine Learning and the Physical Sciences workshop](https://ml4physicalsciences.github.io) at NeurIPS 2019. [Paper](https://arxiv.org/abs/1911.08856).
   * Pleased to serve as a Hackathon chair at Climate Informatics 2019 workshop, [details](https://sites.google.com/view/climateinformatics2019/hackathon)
 * June 2019
   * __Invited talk__: "Physical Oceanography meets Deep Learning"; Data Science for the future, a workshop of [Global Science Week 2019](https://edu.univ-grenoble-alpes.fr/research-and-innovation/science-week/data-science-for-the-future-784127.htm?RH=1550237818168), Grenoble, France.
