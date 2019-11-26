@@ -29,7 +29,7 @@ updating..
 
 # Selected conference papers
 
-<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/QGNET.pdf" width="200" height="200"> R. Lguensat, J. Le Sommer, R. Fablet, S. Metref, E. Cosme. **Learning Generalized
+<img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/QGNET.png" width="200" height="200"> R. Lguensat, J. Le Sommer, R. Fablet, S. Metref, E. Cosme. **Learning Generalized
 Quasi-Geostrophic Models Using Deep Neural Numerical Models** Machine Learning and
 the Physical Sciences workshop, NeurIPS 2019. Vancouver, Canada. [Arxiv](https://arxiv.org/abs/1911.08856){:target="_blank"}
 
