@@ -31,7 +31,7 @@ updating..
 
 <img align="left" src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/publicationimages/QGNET.png" width="350" height="200"> Redouane Lguensat, Julien Le Sommer, Ronan Fablet, Sammy Metref, Emmanuel Cosme. **Learning Generalized
 Quasi-Geostrophic Models Using Deep Neural Numerical Models** Machine Learning and
-the Physical Sciences workshop, NeurIPS 2019. Vancouver, Canada. [Arxiv](https://arxiv.org/abs/1911.08856){:target="_blank"}
+the Physical Sciences workshop, NeurIPS 2019. Vancouver, Canada. [Arxiv](https://arxiv.org/abs/1911.08856){:target="_blank"}, [code](https://github.com/redouanelg/qgsw-DI/tree/master/QGNET){:target="_blank"}
 
 <br><br>
 
