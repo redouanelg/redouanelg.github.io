@@ -45,6 +45,6 @@ Curious to know yours? Check [here](https://mathscinet.ams.org/mathscinet/freeTo
 (inspired from the great [Shinichi Mochizuki](http://www.kurims.kyoto-u.ac.jp/~motizuki/news-english.html))
 
 ''' 
-As of 21 November 2019, 12:00: I'm doing fine.
-Location: Grenoble, France
+As of 04 Mars 2020, 12:00: I'm doing fine.
+Location: Paris, France
 '''
