@@ -7,11 +7,15 @@ permalink: /outreach/
 
 <p class="message">
 Redouane Lguensat <br>
-Postdoc researcher funded by <a href="https://cnes.fr/en">CNES</a><br>
-<a href="http://www.ige-grenoble.fr/?lang=en">Institut des géosciences de l'environnement</a> <br>
-<a href="https://meom-group.github.io/">MEOM team</a> <br><br>
-redouane.lguensat@univ-grenoble-alpes.fr
+Postdoc researcher
+<a href="https://www.ipsl.fr">IPSL</a> <br>
+<a href="https://www.locean-ipsl.upmc.fr/index.php?lang=fr">LOCEAN - NEMO R&D team</a> <br><br>
+rlguensat@locean-ipsl.upmc.fr
 </p>
+
+### Science communication
+ * Feb 2020: Gave my insights on an article combining deep learning and analog forecasting for a piece published in EOS magazine. [link](https://eos.org/articles/combining-ai-and-analog-forecasting-to-predict-extreme-weather)
+ * Oct 2018: Did an interview with Grenoble Data Institue about my work on Machine Learning for Physical Oceanography. [link](https://data-institute.univ-grenoble-alpes.fr/research/focus-on/focus-on-redouane-lguensat-and-machine-learning-for-oceanography-766540.htm)
 
 ### Popscience
 
