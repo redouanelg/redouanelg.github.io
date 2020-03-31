@@ -6,20 +6,16 @@ title: About Me
 
 <p class="message">
 Redouane Lguensat <br>
-Postdoc researcher funded by <a href="https://cnes.fr/en">CNES</a><br>
-<a href="http://www.ige-grenoble.fr/?lang=en">Institut des géosciences de l'environnement</a> <br>
-<a href="https://meom-group.github.io/">MEOM team</a> <br><br>
-redouane.lguensat@univ-grenoble-alpes.fr
+Postdoc researcher
+<a href="https://www.ipsl.fr">IPSL</a> <br>
+<a href="https://www.locean-ipsl.upmc.fr/index.php?lang=fr">LOCEAN - NEMO R&D team</a> <br><br>
+rlguensat@locean-ipsl.upmc.fr
 </p>
 
 ### Research Interests
 
  * Machine learning for oceanic, atmospheric and climate sciences
  * Data Assimilation
-
-### Current Research Project
-
-Currently, I am a postdoc at IGE (Institut des Géosciences de l'Environnment) at Grenoble, France. My postdoc is funded by CNES (French Space Agency). I try to use machine learning methods for the inversion of SWOT data (CNES/NASA mission). 
 
 ### Biography
 
@@ -45,6 +41,6 @@ Curious to know yours? Check [here](https://mathscinet.ams.org/mathscinet/freeTo
 (inspired from the great [Shinichi Mochizuki](http://www.kurims.kyoto-u.ac.jp/~motizuki/news-english.html))
 
 ''' 
-As of 04 March 2020, 12:00: I'm doing fine.
+As of 31 March 2020, 12:00: I'm doing fine.
 Location: Paris, France
 '''
