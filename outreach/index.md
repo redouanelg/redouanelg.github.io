@@ -25,4 +25,5 @@ rlguensat@locean-ipsl.upmc.fr
 
 ### AI in Moroccan Darija
 
+ * I am involved in a series of Youtube live courses and tutorials on Machine Learning with "Alfihrya Academy". [Link](https://www.youtube.com/playlist?list=PLXH8lluXIxcyzlE3swQ1AlubfKbr6frcj)
  * I am running a personal project aiming to popularize AI in Moroccan Darija for high school students. This includes writing Jupyter notebooks in Darija and explaining AI concepts in simple words. Some of the outputs are shared in the following Github [repo](https://github.com/redouanelg/AppliedMathsInDarija)
