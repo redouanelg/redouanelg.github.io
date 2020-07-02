@@ -18,7 +18,7 @@ Currently, I am a postdoc at LOCEAN (IPSL/Sorbonne Université) in Paris, France
 ## News:
 
 * June 2020
-  * "Innovation and exploration in observed and model oceanographic data using interpretable machine learning", our session proposal for #AGU20 is accepted. Please consider our session for submitting your abstracts! Deadline 
+  * "Innovation and exploration in observed and model oceanographic data using interpretable machine learning", our session proposal for #AGU20 is accepted. Please consider our session for submitting your abstracts! [Link](https://agu.confex.com/agu/fm20/meetingapp.cgi/Session/104808)
 * April 2020
   * __New paper__: "Filtering Internal Tides From Wide-Swath Altimeter Data Using Convolutional Neural Networks" is accepted at IEEE IGARSS 2020 conference. [Arxiv](https://arxiv.org/abs/2005.01090); [code](https://github.com/CIA-Oceanix/DetideNet)
 * March 2020
