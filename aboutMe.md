@@ -30,7 +30,7 @@ rlguensat@locean-ipsl.upmc.fr
 
 ### Erdös Number
 
-My Erdös Number is 6 
+My Erdös Number is 5
 
 <img src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/erdos.png" width="550" height="200">
 
