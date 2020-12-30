@@ -24,8 +24,8 @@ Currently, I am a postdoc at LOCEAN (IPSL/Sorbonne Université) in Paris, France
 * October 2020
   * Poster presentation at the ECMWF-ESA Workshop on Machine Learning [Link](https://events.ecmwf.int/event/172/)
 * September 2020
-  * Humbled to serve as a Data Challenge chair for Climate Informatics 2020 conference for the second consecutive time. If you want to discover and/or participate, we prepared a public version of the challenge on Codalab [Link](https://competitions.codalab.org/competitions/26644).
-  * __New paper__: The CI2020 data challenge paper is accepted in *__NeurIPS__* 2020 workshop ClimateChangeAI [Paper](https://arxiv.org/abs/2011.07017)[Code](https://github.com/paulaharder/hackathon-ci-2020)
+  * Humbled to serve as a Data Challenge chair for Climate Informatics 2020 conference for the second consecutive time. If you want to discover and/or participate, we prepared a public version of the challenge on [Codalab](https://competitions.codalab.org/competitions/26644).
+  * __New paper__: The CI2020 data challenge paper is accepted in *__NeurIPS__* 2020 workshop [ClimateChangeAI](https://www.climatechange.ai). [Paper](https://arxiv.org/abs/2011.07017)[Code](https://github.com/paulaharder/hackathon-ci-2020)
 * June 2020
   * "Innovation and exploration in observed and model oceanographic data using interpretable machine learning", our session proposal for #AGU20 is accepted. Please consider our session for submitting your abstracts! [Link](https://agu.confex.com/agu/fm20/meetingapp.cgi/Session/104808)
 * April 2020
