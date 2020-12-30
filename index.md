@@ -17,15 +17,15 @@ Currently, I am a postdoc at LOCEAN (IPSL/Sorbonne Université) in Paris, France
 
 ## News:
 * December 2020
- * Co-chaired the AGU20 session "Innovation and Exploration in Observed and Model Oceanographic Data Using Interpretable Machine Learning"
- * Two posters in AGU20
+  * Co-chaired the AGU20 session "Innovation and Exploration in Observed and Model Oceanographic Data Using Interpretable Machine Learning"
+  * Two posters in AGU20
 * November 2020
- * __New paper__: "A Deep Framework for Eddy Detection and Tracking From Satellite Sea Surface Height Data" is accepted in IEEE Transactions on Geoscience and Remote Sensing [Link](https://ieeexplore.ieee.org/abstract/document/9247537/)
+  * __New paper__: "A Deep Framework for Eddy Detection and Tracking From Satellite Sea Surface Height Data" is accepted in IEEE Transactions on Geoscience and Remote Sensing [Link](https://ieeexplore.ieee.org/abstract/document/9247537/)
 * October 2020
- * Poster presentation at the ECMWF-ESA Workshop on Machine Learning [Link](https://events.ecmwf.int/event/172/)
+  * Poster presentation at the ECMWF-ESA Workshop on Machine Learning [Link](https://events.ecmwf.int/event/172/)
 * September 2020
- * Humbled to serve as a Data Challenge chair for Climate Informatics 2020 conference for the second consecutive time. If you want to discover and/or participate, we prepared a public version of the challenge on Codalab [Link](https://competitions.codalab.org/competitions/26644).
- * __New paper__: The CI2020 data challenge paper is accepted in *__NeurIPS__* 2020 workshop ClimateChangeAI [Paper](https://arxiv.org/abs/2011.07017)[Code](https://github.com/paulaharder/hackathon-ci-2020)
+  * Humbled to serve as a Data Challenge chair for Climate Informatics 2020 conference for the second consecutive time. If you want to discover and/or participate, we prepared a public version of the challenge on Codalab [Link](https://competitions.codalab.org/competitions/26644).
+  * __New paper__: The CI2020 data challenge paper is accepted in *__NeurIPS__* 2020 workshop ClimateChangeAI [Paper](https://arxiv.org/abs/2011.07017)[Code](https://github.com/paulaharder/hackathon-ci-2020)
 * June 2020
   * "Innovation and exploration in observed and model oceanographic data using interpretable machine learning", our session proposal for #AGU20 is accepted. Please consider our session for submitting your abstracts! [Link](https://agu.confex.com/agu/fm20/meetingapp.cgi/Session/104808)
 * April 2020
