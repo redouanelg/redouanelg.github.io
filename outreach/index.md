@@ -18,7 +18,7 @@ rlguensat@locean-ipsl.upmc.fr
  * Oct 2018: Did an interview with Grenoble Data Institue about my work on Machine Learning for Physical Oceanography. [link](https://data-institute.univ-grenoble-alpes.fr/research/focus-on/focus-on-redouane-lguensat-and-machine-learning-for-oceanography-766540.htm)
 
 ### Journal Clubs
- * Organizer of the [FAI4Climate journal club](https://ai4climate.lip6.fr/category/journal-club/) since 2020 
+ * Organizer of the [AI4Climate journal club](https://ai4climate.lip6.fr/category/journal-club/) since 2020 
  
 ### Data Challenges
  * Data Challenge Chair of [the CI2020 conference](https://ci2020.web.ox.ac.uk/home). Link for the public version of the data challenge [Codalab](https://competitions.codalab.org/competitions/26644)
