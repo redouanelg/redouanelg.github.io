@@ -16,7 +16,7 @@ Currently, I am a postdoc at LOCEAN (IPSL/Sorbonne Université) in Paris, France
 
 
 ## News:
-* January 2020
+* January 2021
   * __New paper__: "Physical invariance in neural networks for subgrid-scale scalar flux modeling" is accepted in Physcial Review Fluids. [Paper](https://journals.aps.org/prfluids/accepted/01078Sd5K491ea04a11c1c28bcd9368a92c3065d6); [code](https://github.com/hrkz/SubgridTransportNN)
 * December 2020
   * Co-chaired the AGU20 session "Innovation and Exploration in Observed and Model Oceanographic Data Using Interpretable Machine Learning"
