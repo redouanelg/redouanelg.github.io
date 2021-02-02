@@ -17,6 +17,13 @@ rlguensat@locean-ipsl.upmc.fr
  * Feb 2020: Gave my insights on an article combining deep learning and analog forecasting for a piece published in EOS magazine. [link](https://eos.org/articles/combining-ai-and-analog-forecasting-to-predict-extreme-weather)
  * Oct 2018: Did an interview with Grenoble Data Institue about my work on Machine Learning for Physical Oceanography. [link](https://data-institute.univ-grenoble-alpes.fr/research/focus-on/focus-on-redouane-lguensat-and-machine-learning-for-oceanography-766540.htm)
 
+### Journal Clubs
+ * Organizer of the [FAI4Climate journal club](https://ai4climate.lip6.fr/category/journal-club/) since 2020 
+ 
+### Data Challenges
+ * Data Challenge Chair of [the CI2020 conference](https://ci2020.web.ox.ac.uk/home). Link for the public version of the data challenge [Codalab](https://competitions.codalab.org/competitions/26644)
+ * Data Challenge chiar of [the CI2019 conference](https://sites.google.com/view/climateinformatics2019/hackathon?authuser=0)
+
 ### Popscience
  * Nov 2020: Podcast guest at [Tajriba](https://www.youtube.com/watch?v=R0lC47zvWFU). Target audience: internet; Language: Moroccan Darija.
  * July 2020: "AI in Darija" workshop at [Festival Moonshot Morocco](http://moonshotmorocco.com). Target audience: public youth; Language: Moroccan Darija.
