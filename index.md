@@ -16,6 +16,8 @@ Currently, I am a postdoc at LOCEAN (IPSL/Sorbonne Université) in Paris, France
 
 
 ## News:
+* February 2021
+  * Webinar for the AI4ES seminars of Barcelona Computing Center [link](https://www.bsc.es/research-and-development/research-seminars/virtual-bsc-rsai4es-seminar-uncertainty-quantification-and-ml-the-tuning-climate-models)
 * January 2021
   * __New paper__: "Physical invariance in neural networks for subgrid-scale scalar flux modeling" is accepted in Physcial Review Fluids. [Paper](https://journals.aps.org/prfluids/accepted/01078Sd5K491ea04a11c1c28bcd9368a92c3065d6); [code](https://github.com/hrkz/SubgridTransportNN)
 * December 2020
