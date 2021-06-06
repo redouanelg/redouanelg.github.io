@@ -18,6 +18,8 @@ Currently, I am a postdoc at LOCEAN (IPSL/Sorbonne Université) in Paris, France
 ## News:
 * May 2021
   * #vEGU2021 is online, I have two PICO presentations about History Matching for the L96 model and on our newly developed method "THOR" (collaboration with Maike Sonnewald from Princeton Univ.) and I am also a co-convener of the [Machine learning for Earth system modeling](https://meetingorganizer.copernicus.org/EGU21/session/40110) session.
+* April 2021
+  * Happy to coauthor a __review paper__ on ML for ocean modeling ! [Preprint](https://arxiv.org/abs/2104.12506)
 * February 2021
   * Webinar for the AI4ES seminars of Barcelona Computing Center [link](https://www.bsc.es/research-and-development/research-seminars/virtual-bsc-rsai4es-seminar-uncertainty-quantification-and-ml-the-tuning-climate-models)
 * January 2021
