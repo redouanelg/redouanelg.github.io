@@ -9,7 +9,7 @@ Redouane Lguensat <br>
 Postdoc researcher
 <a href="https://www.ipsl.fr">IPSL</a> <br>
 <a href="https://www.locean-ipsl.upmc.fr/index.php?lang=fr">LOCEAN - NEMO R&D team</a> <br><br>
-rlguensat@locean-ipsl.upmc.fr
+redouane.lguensat "at" locean.ipsl.fr
 </p>
 
 ### Research Interests
