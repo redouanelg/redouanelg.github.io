@@ -17,7 +17,7 @@ Currently, I am a postdoc at LOCEAN (IPSL/Sorbonne Université) in Paris, France
 
 ## News:
 * July 2021
-  * __Spotlight talk__ at the ClimateChangeAI workshop of __ICML 2021__ on "THOR". [ClimateChangeAI](https://www.climatechange.ai)
+  * __Spotlight talk__ for the workshop "Tackling Climate Change with Machine Learning" at __ICML 2021__ on "THOR". [ClimateChangeAI](https://www.climatechange.ai)
 * June 2021
   * __Review paper__ on Machine Learning for ocean modeling ! accepted in __Environmental Research Letters__. [Paper](https://iopscience.iop.org/article/10.1088/1748-9326/ac0eb0)
 * May 2021
