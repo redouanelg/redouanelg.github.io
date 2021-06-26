@@ -16,19 +16,21 @@ Currently, I am a postdoc at LOCEAN (IPSL/Sorbonne Université) in Paris, France
 
 
 ## News:
+* July 2021
+  * __Spotlight talk__ at the ClimateChangeAI workshop of __ICML 2021__ on "THOR". [ClimateChangeAI](https://www.climatechange.ai)
+* June 2021
+  * __Review paper__ on Machine Learning for ocean modeling ! accepted in __Environmental Research Letters__ [Paper](https://iopscience.iop.org/article/10.1088/1748-9326/ac0eb0)
 * May 2021
   * #vEGU2021 is online, I have two PICO presentations about History Matching for the L96 model and on our newly developed method "THOR" (collaboration with Maike Sonnewald from Princeton Univ.) and I am also a co-convener of the [Machine learning for Earth system modeling](https://meetingorganizer.copernicus.org/EGU21/session/40110) session.
-* April 2021
-  * Happy to coauthor a __review paper__ on ML for ocean modeling ! [Preprint](https://arxiv.org/abs/2104.12506)
 * February 2021
   * Webinar for the AI4ES seminars of Barcelona Computing Center [link](https://www.bsc.es/research-and-development/research-seminars/virtual-bsc-rsai4es-seminar-uncertainty-quantification-and-ml-the-tuning-climate-models)
 * January 2021
-  * __New paper__: "Physical invariance in neural networks for subgrid-scale scalar flux modeling" is accepted in Physcial Review Fluids. [Paper](https://journals.aps.org/prfluids/accepted/01078Sd5K491ea04a11c1c28bcd9368a92c3065d6); [code](https://github.com/hrkz/SubgridTransportNN)
+  * __New paper__: "Physical invariance in neural networks for subgrid-scale scalar flux modeling" is accepted in __Physcial Review Fluids__. [Paper](https://journals.aps.org/prfluids/accepted/01078Sd5K491ea04a11c1c28bcd9368a92c3065d6); [code](https://github.com/hrkz/SubgridTransportNN)
 * December 2020
   * Co-chaired the AGU20 session "Innovation and Exploration in Observed and Model Oceanographic Data Using Interpretable Machine Learning"
   * Two posters in AGU20
 * November 2020
-  * __New paper__: "A Deep Framework for Eddy Detection and Tracking From Satellite Sea Surface Height Data" is accepted in IEEE Transactions on Geoscience and Remote Sensing. [Paper](https://ieeexplore.ieee.org/abstract/document/9247537/)
+  * __New paper__: "A Deep Framework for Eddy Detection and Tracking From Satellite Sea Surface Height Data" is accepted in __IEEE Transactions on Geoscience and Remote Sensing__. [Paper](https://ieeexplore.ieee.org/abstract/document/9247537/)
 * October 2020
   * Poster presentation at the [ECMWF-ESA Workshop on Machine Learning](https://events.ecmwf.int/event/172/)
 * September 2020
