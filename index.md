@@ -8,7 +8,7 @@ Welcome to my personal webpage!
 
 I am interested in Machine learning for oceanic, atmospheric and climate sciences. My PhD thesis consisted in the use of analog methods (K-Nearest Neighbor Regression) to develop a new data-driven approach to tackle data assimilation: the Analog Data Assimilation (AnDA). In parallel to my thesis I investigated the use of deep learning methods for the segmentation of oceanic eddies from satellite-derived sea related maps.
 
-Currently, I am a postdoc at LOCEAN (IPSL/Sorbonne Université) in Paris, France. My postdoc is funded by Prof. Venkatramani Balaji's "Make Our Planet Great Again" grant. I am working on machine learning methods for numerical modeling with a focus on physical oceanography.
+Currently, I am a postdoc at LSCE (IPSL/CEA Saclay) in Paris, France. My postdoc is funded by Prof. Venkatramani Balaji's "Make Our Planet Great Again" grant. I am working on machine learning methods for numerical modeling with a focus on physical oceanography.
 
 > [Google Scholar Profile](https://scholar.google.fr/citations?user=DuiyaQoAAAAJ&hl=en){:target="_blank"}
 
