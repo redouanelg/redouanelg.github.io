@@ -10,10 +10,11 @@ I am interested in Machine learning for oceanic, atmospheric and climate science
 
 Currently, I am a postdoc at LSCE (IPSL/CEA Saclay) in Paris, France. My postdoc is funded by Prof. Venkatramani Balaji's "Make Our Planet Great Again" grant. I am working on machine learning methods for numerical modeling with a focus on physical oceanography.
 
-> [Google Scholar Profile](https://scholar.google.fr/citations?user=DuiyaQoAAAAJ&hl=en){:target="_blank"}
+> [Google Scholar Profile](https://scholar.google.fr/citations?user=DuiyaQoAAAAJ&hl=en)
 
+<!---
 > [Researchgate](https://www.researchgate.net/profile/Redouane_Lguensat)
-
+-->
 
 ## News:
 * July 2021
