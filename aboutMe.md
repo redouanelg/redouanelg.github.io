@@ -9,7 +9,7 @@ Redouane Lguensat <br>
 Postdoc researcher
 <a href="https://www.ipsl.fr">IPSL</a> <br>
 <a href="https://www.locean-ipsl.upmc.fr/index.php?lang=fr">Currently visiting LOCEAN - NEMO R&D team</a> <br><br>
-redouane.lguensat "at" lsce.ipsl.fr
+redouane.lguensat "at" locean.ipsl.fr
 </p>
 
 ### Research Interests
@@ -41,6 +41,6 @@ Curious to know yours? Check [here](https://mathscinet.ams.org/mathscinet/freeTo
 (inspired from the great [Shinichi Mochizuki](http://www.kurims.kyoto-u.ac.jp/~motizuki/news-english.html))
 
 ''' 
-As of 26 June 2021, 12:00: I'm doing fine.
+As of 06 October 2021, 12:00: I'm doing fine.
 Location: Paris, France
 '''
