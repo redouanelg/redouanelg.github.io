@@ -10,7 +10,7 @@ I am a IRD Research Engineer (permanent position) appointed at IPSL climate mode
 
 I am interested in Machine learning for oceanic, atmospheric and climate sciences. 
 
-Previously, I did two postdocs, first one funded by CNES (French Space Agency) at MEOM-IGE in Grenoble, France with Julien Le Sommer, the second one funded by Prof. Venkatramani Balaji's "Make Our Planet Great Again" grant that I did in LOCEAN-IPSL with V. Balaji and Julie Deshayes. My PhD thesis consisted in the use of analog methods (K-Nearest Neighbor Regression) to develop a new data-driven approach to tackle data assimilation: the Analog Data Assimilation (AnDA). In parallel to my thesis I investigated the use of deep learning methods for the segmentation of oceanic eddies from satellite-derived sea related maps.
+Previously, I did two postdocs, first one funded by CNES (French Space Agency) at MEOM-IGE with Julien Le Sommer, the second one funded by Venkatramani Balaji's "Make Our Planet Great Again" grant that I did in LOCEAN-IPSL with V. Balaji and Julie Deshayes. My PhD thesis that I did in IMT Atlantique under the supervision of Ronan Fablet, consisted in the use of analog methods (K-Nearest Neighbor Regression) to develop a new data-driven approach to tackle data assimilation: the Analog Data Assimilation (AnDA). In parallel to my thesis I investigated the use of deep learning methods for the segmentation of oceanic eddies from satellite-derived sea related maps.
 
 <!---
 I co-founded [MoroccoAI](https://morocco.ai) an association that promotes AI research/industry/education in my home country Morocco
