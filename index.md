@@ -17,12 +17,13 @@ I co-founded [MoroccoAI](https://morocco.ai) an association that promotes AI res
 -->
 
 > [Google Scholar Profile](https://scholar.google.fr/citations?user=DuiyaQoAAAAJ&hl=en)
+
 > [Researchgate](https://www.researchgate.net/profile/Redouane_Lguensat)
 
 ## News:
 
 * December 2021
-  * After several attempts, I finally got a permanent position at IRD as a research engineer !! I will join ESPRI and work within IPSL on climate services with a focus on developing countries. 
+  * BIG NEWS, I got a permanent position at IRD as a research engineer !! I will join ESPRI and work within IPSL on climate services with a focus on collaborating with developing countries. 
 * July 2021
   * __Spotlight talk__ for the workshop "Tackling Climate Change with Machine Learning" at __ICML 2021__ on "THOR". [ClimateChangeAI](https://www.climatechange.ai)
 * June 2021
