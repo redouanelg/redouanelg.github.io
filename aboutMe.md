@@ -6,10 +6,9 @@ title: About Me
 
 <p class="message">
 Dr. Redouane Lguensat <br>
-Postdoc researcher
-<a href="https://www.ipsl.fr">IPSL</a> <br>
-Visiting researcher at <a href="https://www.locean-ipsl.upmc.fr/index.php?lang=fr">LOCEAN-IPSL, Sorbonne Université</a> <br><br>
-redouane.lguensat "at" locean.ipsl.fr
+Research Engineer
+<a href="https://www.ipsl.fr">IPSL</a>/<a href="https://www.ird.fr">IRD</a> <br>
+redouane "dot" lguensat "at" ipsl "dot" fr
 </p>
 
 ### Research Interests
