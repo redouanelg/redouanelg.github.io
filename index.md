@@ -6,17 +6,23 @@ permalink: /
 
 Welcome to my personal webpage!
 
-I am interested in Machine learning for oceanic, atmospheric and climate sciences. My PhD thesis consisted in the use of analog methods (K-Nearest Neighbor Regression) to develop a new data-driven approach to tackle data assimilation: the Analog Data Assimilation (AnDA). In parallel to my thesis I investigated the use of deep learning methods for the segmentation of oceanic eddies from satellite-derived sea related maps.
+I am a IRD Research Engineer (permanent position) appointed at IPSL climate modeling center in Paris.
 
-Currently, I am a postdoc at LSCE (IPSL/CEA Saclay) in Paris, France. My postdoc is funded by Prof. Venkatramani Balaji's "Make Our Planet Great Again" grant. I am working on machine learning methods for numerical modeling with a focus on physical oceanography.
+I am interested in Machine learning for oceanic, atmospheric and climate sciences. 
 
-> [Google Scholar Profile](https://scholar.google.fr/citations?user=DuiyaQoAAAAJ&hl=en)
+Previously, I did two postdocs, first one funded by CNES (French Space Agency) at MEOM-IGE in Grenoble, France with Julien Le Sommer, the second one funded by Prof. Venkatramani Balaji's "Make Our Planet Great Again" grant that I did in LOCEAN-IPSL with V. Balaji and Julie Deshayes. My PhD thesis consisted in the use of analog methods (K-Nearest Neighbor Regression) to develop a new data-driven approach to tackle data assimilation: the Analog Data Assimilation (AnDA). In parallel to my thesis I investigated the use of deep learning methods for the segmentation of oceanic eddies from satellite-derived sea related maps.
 
 <!---
-> [Researchgate](https://www.researchgate.net/profile/Redouane_Lguensat)
+I co-founded [MoroccoAI](https://morocco.ai) an association that promotes AI research/industry/education in my home country Morocco
 -->
 
+> [Google Scholar Profile](https://scholar.google.fr/citations?user=DuiyaQoAAAAJ&hl=en)
+> [Researchgate](https://www.researchgate.net/profile/Redouane_Lguensat)
+
 ## News:
+
+* December 2021
+  * After several attempts, I finally got a permanent position at IRD as a research engineer !! I will join ESPRI and work within IPSL on climate services with a focus on developing countries. 
 * July 2021
   * __Spotlight talk__ for the workshop "Tackling Climate Change with Machine Learning" at __ICML 2021__ on "THOR". [ClimateChangeAI](https://www.climatechange.ai)
 * June 2021
