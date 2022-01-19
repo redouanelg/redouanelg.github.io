@@ -6,7 +6,7 @@ title: About Me
 
 <p class="message">
 Dr. Redouane Lguensat <br>
-Research Engineer
+Research Engineer / Statistician
 <a href="https://www.ipsl.fr">IPSL</a>/<a href="https://www.ird.fr">IRD</a> <br>
 Email: redouane "dot" lguensat "at" ipsl "dot" fr
 </p>
