@@ -6,11 +6,10 @@ permalink: /outreach/
 
 
 <p class="message">
-Redouane Lguensat <br>
-Postdoc researcher
-<a href="https://www.ipsl.fr">IPSL</a> <br>
-<a href="https://www.locean-ipsl.upmc.fr/index.php?lang=fr">LOCEAN - NEMO R&D team</a> <br><br>
-rlguensat@locean-ipsl.upmc.fr
+Dr. Redouane Lguensat <br>
+Research Engineer / Statistician
+<a href="https://www.ipsl.fr">IPSL</a>/<a href="https://www.ird.fr">IRD</a> <br>
+Email: redouane "dot" lguensat "at" ipsl "dot" fr
 </p>
 
 ### Science communication
