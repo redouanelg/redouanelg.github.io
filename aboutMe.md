@@ -8,7 +8,7 @@ title: About Me
 Dr. Redouane Lguensat <br>
 Research Engineer
 <a href="https://www.ipsl.fr">IPSL</a>/<a href="https://www.ird.fr">IRD</a> <br>
-redouane "dot" lguensat "at" ipsl "dot" fr
+Email: redouane "dot" lguensat "at" ipsl "dot" fr
 </p>
 
 ### Research Interests
