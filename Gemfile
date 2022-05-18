@@ -14,6 +14,7 @@ gem "github-pages", group: :jekyll_plugins
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
+gem "addressable", ">= 2.8.0"
 gem "jekyll", ">= 3.6.3"
 gem "kramdown", ">=2.3.0"
 gem "json", ">= 2.3.0"
