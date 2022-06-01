@@ -8,9 +8,9 @@ Welcome to my personal webpage!
 
 I am a IRD Research Engineer (permanent position) appointed at IPSL climate modeling center in Paris.
 
-I am interested in Machine learning for oceanic, atmospheric and climate sciences. 
+I am interested in statistical modeling and machine learning for climate modeling applications. 
 
-Previously, I did two postdocs, first one funded by CNES (French Space Agency) at MEOM-IGE with Julien Le Sommer, the second one funded by Venkatramani Balaji's "Make Our Planet Great Again" grant that I did in LOCEAN-IPSL with V. Balaji and Julie Deshayes. My PhD thesis that I did in IMT Atlantique under the supervision of Ronan Fablet, consisted in the use of analog methods (K-Nearest Neighbor Regression) to develop a new data-driven approach to tackle data assimilation: the Analog Data Assimilation (AnDA). In parallel to my thesis I investigated the use of deep learning methods for the segmentation of oceanic eddies from satellite-derived sea related maps.
+Previously, I did two postdocs, first one funded by CNES (French Space Agency) at MEOM-IGE with Julien Le Sommer, the second one funded by V. Balaji's "Make Our Planet Great Again" grant that I did in LOCEAN-IPSL with V. Balaji and Julie Deshayes. I received a PhD in Computer Vision from IMT Atlantique under the supervision of Ronan Fablet, the thesis consisted in the use of analog methods (K-Nearest Neighbor Regression) to develop a new data-driven approach to tackle data assimilation: the Analog Data Assimilation (AnDA). In parallel to my thesis I investigated the use of deep learning methods for the segmentation of oceanic eddies from satellite-derived sea related maps.
 
 <!---
 I co-founded [MoroccoAI](https://morocco.ai) an association that promotes AI research/industry/education in my home country Morocco
@@ -22,10 +22,13 @@ I co-founded [MoroccoAI](https://morocco.ai) an association that promotes AI res
 
 ## News:
 
+* May 2022
+  * Good to be back to Vienna for #EGU22, I have a new presentation about History Matching for the L96 model and I am also a co-convener of the [Machine learning for Earth system modeling](https://meetingorganizer.copernicus.org/EGU22/session/43848#Presentations) session.
+  * I was invited to give a talk at the IPSL Virtual spring school 2022
 * December 2021
   * __BIG NEWS__, I got a permanent position at IRD as a research engineer !! I will join ESPRI and work within IPSL on climate services with a focus on collaborating with developing countries. 
 * July 2021
-  * __Spotlight talk for the workshop "Tackling Climate Change with Machine Learning" at __ICML 2021__ on "THOR". [ClimateChangeAI](https://www.climatechange.ai)
+  * __Spotlight talk__ for the workshop "Tackling Climate Change with Machine Learning" at __ICML 2021__ on "THOR". [ClimateChangeAI](https://www.climatechange.ai)
 * June 2021
   * __Review paper__ on Machine Learning for ocean modeling ! accepted in __Environmental Research Letters__. [Paper](https://iopscience.iop.org/article/10.1088/1748-9326/ac0eb0)
 * May 2021
