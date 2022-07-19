@@ -40,6 +40,6 @@ Curious to know yours? Check [here](https://mathscinet.ams.org/mathscinet/freeTo
 (inspired from the great [Shinichi Mochizuki](http://www.kurims.kyoto-u.ac.jp/~motizuki/news-english.html))
 
 ''' 
-As of 01 June 2022, 12:00: I'm doing fine.
+As of 19 July 2022, 12:00: I'm doing fine.
 Location: Paris, France
 '''
