@@ -6,11 +6,13 @@ permalink: /
 
 Welcome to my personal webpage!
 
-I am a IRD Research Engineer (permanent position) appointed at IPSL climate modeling center in Paris.
+I am a [IRD](https://www.ird.fr) Research Engineer (permanent position) appointed at the [IPSL](https://www.ipsl.fr) (Institut Pierre-Simon Laplace) climate modeling center located in Sorbonne Université, Paris, France.
 
-I am interested in statistical modeling and machine learning for climate modeling applications. 
+I am often refered to as an "interdisciplinary engineer/researcher", my work is focused on statistical modeling (and machine learning) for climate modeling. 
 
-Previously, I did two postdocs, first one funded by CNES (French Space Agency) at MEOM-IGE with Julien Le Sommer, the second one funded by V. Balaji's "Make Our Planet Great Again" grant that I did in LOCEAN-IPSL with V. Balaji and Julie Deshayes. I received a PhD in Computer Vision from IMT Atlantique under the supervision of Ronan Fablet, the thesis consisted in the use of analog methods (K-Nearest Neighbor Regression) to develop a new data-driven approach to tackle data assimilation: the Analog Data Assimilation (AnDA). In parallel to my thesis I investigated the use of deep learning methods for the segmentation of oceanic eddies from satellite-derived sea related maps.
+Before my current position, I received a PhD in Computer Vision from [IMT Atlantique](https://www.imt-atlantique.fr) under the supervision of [Ronan Fablet](https://rfablet.github.io), my PhD thesis consisted in the use of analog methods (K-Nearest Neighbor Regression) to develop a new data-driven approach to tackle data assimilation: the Analog Data Assimilation (AnDA). In parallel to my thesis I investigated the use of deep learning methods for the segmentation of oceanic eddies from satellite-derived sea related maps. 
+
+I then decided to take a step towards the ocean modeling community and went to do two postdocs in two Physical Oceanography labs. First one funded by the CNES (French Space Agency) at MEOM-IGE with [Julien Le Sommer](https://jlesommer.github.io) on solving inverse problems for the SWOT altimeter. The second was funded by V. Balaji's ["Make Our Planet Great Again"](https://makeourplanetgreatagain-cnrs.com/) grant that I did in LOCEAN-IPSL with V. Balaji and Julie Deshayes on the tuning of climate models using surrogate modeling. 
 
 <!---
 I co-founded [MoroccoAI](https://morocco.ai) an association that promotes AI research/industry/education in my home country Morocco
@@ -22,6 +24,8 @@ I co-founded [MoroccoAI](https://morocco.ai) an association that promotes AI res
 
 ## News:
 
+* September 2022
+  * I gave a practical session about Physics-Informed AI for the [ML4Ocean summer school](https://scai.sorbonne-universite.fr/public/events/view/0cade4f19935b439a557/1). You can find my notebooks [here]()
 * May 2022
   * Good to be back to Vienna for #EGU22, I have a new presentation about History Matching for the L96 model and I am also a co-convener of the [Machine learning for Earth system modeling](https://meetingorganizer.copernicus.org/EGU22/session/43848#Presentations) session.
   * I was invited to give a talk at the IPSL Virtual spring school 2022
