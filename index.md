@@ -25,7 +25,7 @@ I co-founded [MoroccoAI](https://morocco.ai) an association that promotes AI res
 ## News:
 
 * September 2022
-  * I gave a practical session about Physics-Informed AI for the [ML4Ocean summer school](https://scai.sorbonne-universite.fr/public/events/view/0cade4f19935b439a557/1). You can find my notebooks [here]()
+  * I gave a practical session about Physics-Informed AI for the [ML4Ocean summer school](https://scai.sorbonne-universite.fr/public/events/view/0cade4f19935b439a557/1). You can find my notebooks [here](https://github.com/jiho/ML4Oceans)
 * May 2022
   * Good to be back to Vienna for #EGU22, I have a new presentation about History Matching for the L96 model and I am also a co-convener of the [Machine learning for Earth system modeling](https://meetingorganizer.copernicus.org/EGU22/session/43848#Presentations) session.
   * I was invited to give a talk at the IPSL Virtual spring school 2022
