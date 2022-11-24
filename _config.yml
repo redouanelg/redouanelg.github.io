@@ -1,5 +1,6 @@
 # Dependencies
-markdown:         kramdown
+markdown:         CommonMarkGhPages
+#kramdown
 highlighter:      pygments
 
 # Permalinks
