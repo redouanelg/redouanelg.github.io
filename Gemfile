@@ -27,4 +27,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'     # add search engine optimization - AK - 18/08/17
+  gem 'jekyll-commonmark-ghpages'
 end
