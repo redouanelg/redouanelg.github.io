@@ -6,6 +6,7 @@ permalink: /publications/
 
 Please take a look at my [Google Scholar profile](https://scholar.google.fr/citations?user=DuiyaQoAAAAJ&hl=fr) for the most recent list. A complete list of publications can also be found in my CV.
 
+Journal papers:
 
 * Redouane Lguensat, Pierre Tandeo, Pierre Ailliot, Manuel Pulido and Ronan Fablet. **The Analog Data Assimilation**. Monthly Weather Review, 2017, vol. 145, no 10, p. 4093-4107. [journal webpage](http://journals.ametsoc.org/doi/abs/10.1175/MWR-D-16-0441.1)
 
