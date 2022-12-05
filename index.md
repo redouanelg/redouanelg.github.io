@@ -8,14 +8,14 @@ Welcome to my personal webpage!
 
 I am a [IRD](https://www.ird.fr) Research Engineer (permanent position) appointed at the [IPSL](https://www.ipsl.fr) (Institut Pierre-Simon Laplace) climate modeling center located in Sorbonne Université, Paris, France.
 
-I am often referred to as an "interdisciplinary engineer/researcher", my work is focused on statistical modeling (and machine learning) for climate modeling. 
+I am often referred to as an "interdisciplinary researcher/engineer", my work is focused on machine learning for climate modeling. 
 
 Before my current position, I received a PhD in Computer Vision from [IMT Atlantique](https://www.imt-atlantique.fr) under the supervision of [Ronan Fablet](https://rfablet.github.io), my PhD thesis consisted in the use of analog methods (K-Nearest Neighbor Regression) to develop a new data-driven approach to tackle data assimilation: the Analog Data Assimilation (AnDA). In parallel to my thesis I investigated the use of deep learning methods for the segmentation of oceanic eddies from satellite-derived sea related maps. 
 
 I then decided to take a step towards the ocean modeling community and went to do two postdocs in two Physical Oceanography labs. First one funded by the CNES (French Space Agency) at MEOM-IGE with [Julien Le Sommer](https://lesommer.github.io) on solving inverse problems for the SWOT altimeter. The second was funded by V. Balaji's ["Make Our Planet Great Again"](https://makeourplanetgreatagain-cnrs.com/) grant that I did in LOCEAN-IPSL with [V. Balaji](https://www.schmidtfutures.com/person/v-balaji/) and [Julie Deshayes](https://juliedeshayes.github.io/) on the tuning of climate models using surrogate modeling. 
 
 <!---
-I co-founded [MoroccoAI](https://morocco.ai) an association that promotes AI research/industry/education in my home country Morocco
+I co-founded [MoroccoAI](https://morocco.ai) a non-profit association that promotes AI research/industry/education in my birth country Morocco
 -->
 
 > [Google Scholar Profile](https://scholar.google.fr/citations?user=DuiyaQoAAAAJ&hl=en)
@@ -24,6 +24,12 @@ I co-founded [MoroccoAI](https://morocco.ai) an association that promotes AI res
 
 ## News:
 
+* December 2022
+  * I am giving a talk for the [AI4Science](https://ai4science.nassma.ai/) workshop organized by UM6P in Rabat, Morocco.
+  * __New paper__: “Neural Fields for Fast and Scalable Interpolation of Geophysical Ocean Variables” is accepted at the [Machine Learning and the Physical Sciences workshop](https://ml4physicalsciences.github.io) at *__NeurIPS__* 2022. [Paper](https://arxiv.org/abs/2211.10444); [code](https://github.com/jejjohnson/ml4ssh).
+* November 2022
+  *   __New paper__: "Explainable artificial intelligence for Bayesian Neural Networks: Toward trustworthy predictions of ocean dynamics". Journal of Advances in Modeling Earth Systems. [paper](https://doi.org/10.1029/2022MS003162)
+  *   __New paper__: "A posteriori learning for quasi-geostrophic turbulence parametrization". Journal of Advances in Modeling Earth Systems, [Paper](https://doi.org/10.1029/2022MS003124)
 * September 2022
   * I gave a practical session about Physics-Informed AI for the [ML4Ocean summer school](https://scai.sorbonne-universite.fr/public/events/view/0cade4f19935b439a557/1). You can find my notebooks [here](https://github.com/jiho/ML4Oceans)
 * May 2022
