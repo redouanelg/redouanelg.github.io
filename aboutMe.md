@@ -6,7 +6,7 @@ title: About Me
 
 <p class="message">
 Dr. Redouane Lguensat <br>
-Research Engineer / Statistician
+Research Engineer / Climate Data Scientist
 <a href="https://www.ipsl.fr">IPSL</a>/<a href="https://www.ird.fr">IRD</a> <br>
 Email: redouane "dot" lguensat "at" ipsl "dot" fr
 </p>
@@ -27,19 +27,7 @@ Email: redouane "dot" lguensat "at" ipsl "dot" fr
   * Dr. Clément Ubelmann - CLS
 * 2014: Engineering degree in IT from [IMT Atlantique](https://www.imt-atlantique.fr/en) (*ex Télécom Bretagne*) + Master of research [SISEA](https://istic.univ-rennes1.fr/master-2-eea-parcours-signal-image-systemes-integres-automatique-sisea-0) (Signal, Image, Embedded system and Automatics) from Rennes I University. 
 
-### Erdös Number
-
-My Erdös Number is 5
-
-<img src="https://raw.githubusercontent.com/redouanelg/redouanelg.github.io/master/images/erdos.png" width="550" height="200">
-
-&nbsp;
-Curious to know yours? Check [here](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)
-
-### Safety Confirmation Information for Redouane Lguensat
-(inspired from the great [Shinichi Mochizuki](http://www.kurims.kyoto-u.ac.jp/~motizuki/news-english.html))
-
-''' 
-As of 18 August 2022, 12:00: I'm doing fine.
-Location: Paris, France
-'''
+### Misc
+* My mother tongue is Amazigh, an ancient language of North Africa. I speak fluently Arabic, French and English. I have limited conversational skills in Spanish and Chinese.
+* 24 countries visited 
+* Fan of Souls-like video games
