@@ -12,7 +12,7 @@ Before my current position, I received a PhD in Computer Vision from [IMT Atlant
 
 I then decided to take a step towards the ocean modeling community and went to do two postdocs in two Physical Oceanography labs. First one funded by the CNES (French Space Agency) at MEOM-IGE with [Julien Le Sommer](https://lesommer.github.io) on solving inverse problems for the SWOT altimeter. The second was funded by V. Balaji's ["Make Our Planet Great Again"](https://makeourplanetgreatagain-cnrs.com/) grant that I did in LOCEAN-IPSL with [V. Balaji](https://www.schmidtfutures.com/person/v-balaji/) and [Julie Deshayes](https://juliedeshayes.github.io/) on the tuning of climate models using surrogate modeling. 
 
-I co-founded [MoroccoAI](https://morocco.ai) a non-profit organization that promotes AI adoption in my birth country Morocco.
+I also co-founded [MoroccoAI](https://morocco.ai) a non-profit organization that promotes AI adoption in my birth country Morocco.
 <!---
 -->
 
