@@ -22,6 +22,8 @@ I also co-founded [MoroccoAI](https://morocco.ai) a non-profit organization that
 
 ## News:
 
+I am not updating this section anymore, please connect with me on [Linkedin](https://www.linkedin.com/in/redouanelguensat/) or [X](https://x.com/redouanelg) for news about my work
+
 * January 2023:
   * Our paper published in JAMES selected for an Editor Highlight in EOS magazine ! congrats to Hugo Frezat and lucky to be part of this work. [Highlight](https://eos.org/editor-highlights/interactive-learning-for-better-ai-based-subgrid-scale-modeling)
 * December 2022
