@@ -29,5 +29,5 @@ Email: redouane "dot" lguensat "at" ipsl "dot" fr
 
 ### Misc
 * My mother tongue is Amazigh, an ancient language of North Africa. I speak fluently Arabic, French and English. I have limited conversational skills in Spanish and Chinese.
-* 24 countries visited 
+* 28 countries visited 
 * Fan of Souls-like video games
