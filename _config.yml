@@ -3,6 +3,10 @@ markdown:         CommonMarkGhPages
 #kramdown
 highlighter:      pygments
 
+commonmark:
+  options: ["UNSAFE", "SMART"]
+  extensions: ["strikethrough", "autolink", "table"]
+
 # Permalinks
 permalink:        pretty
 #relative_permalinks: true
