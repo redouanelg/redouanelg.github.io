@@ -1,0 +1,52 @@
+---
+layout: page
+title: Selected Publications
+description: Redouane Lguensat's five most cited publications in machine learning, ocean science, and data assimilation.
+permalink: /publications/
+---
+
+<div class="publication-hero">
+  <p class="publication-eyebrow">Research highlights</p>
+  <p class="publication-lead">
+    My five most cited papers, spanning machine learning for ocean science,
+    data assimilation, and physics-aware modeling.
+  </p>
+  <div class="publication-actions">
+    <a class="publication-action publication-action-primary" href="{{ site.data.publications.scholar.profile_url }}" target="_blank" rel="noopener">Google Scholar</a>
+    <a class="publication-action" href="{{ '/CV_redouane.pdf' | relative_url }}">Download CV</a>
+  </div>
+  <p class="publication-updated">
+    Citation counts checked {{ site.data.publications.scholar.checked }}. Counts change over time.
+  </p>
+</div>
+
+<h2 class="publication-section-title">Most cited publications</h2>
+
+<div class="publication-list">
+  {% for paper in site.data.publications.most_cited %}
+  <article class="pub-card">
+    <div class="pub-rank" aria-label="Rank {{ forloop.index }}">{{ forloop.index }}</div>
+    <div class="pub-content">
+      <div class="pub-meta">
+        <span class="pub-citations">{{ paper.citations }} citations</span>
+        <span>{{ paper.year }}</span>
+        <span>{{ paper.kind }}</span>
+      </div>
+      <h3 class="pub-title">
+        <a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+      </h3>
+      <p class="pub-authors">{{ paper.author }}</p>
+      <p class="pub-venue">
+        <em>{{ paper.venue }}</em>{% if paper.details %}, {{ paper.details }}{% endif %}
+      </p>
+      <div class="pub-links">
+        <a href="{{ paper.url }}" target="_blank" rel="noopener">View paper</a>
+        <span class="pub-doi">DOI: {{ paper.doi }}</span>
+        {% if paper.code_url %}
+        <a href="{{ paper.code_url }}" target="_blank" rel="noopener">Code</a>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
