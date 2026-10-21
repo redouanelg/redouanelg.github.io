@@ -1,0 +1,84 @@
+---
+layout: default
+permalink: /
+---
+{%- assign layers = site.data.research | where_exp: "t", "t.layer" -%}
+<header class="hero">
+  <div>
+    <img class="portrait" src="{{ '/images/profilepic.png' | relative_url }}" alt="Portrait of Redouane Lguensat">
+    <h1>Redouane Lguensat</h1>
+    <p class="tagline" data-souls="Wielder of the Lens of Fine Detail, with blade, shield and talisman at hand. Climate data scientist of the IPSL covenant.">
+      <b>Statistical downscaling and machine learning for climate,</b> bringing global projections down to where impacts happen. IRD research engineer at IPSL, Paris.
+    </p>
+    <div class="chips">
+      {%- for t in layers %}
+      <button class="chip" type="button" data-layer="{{ forloop.index0 }}" data-souls="{{ t.relic }}">{{ t.name }}</button>
+      {%- endfor %}
+      {%- for t in site.data.research %}{% unless t.layer %}
+      <span class="chip" data-souls="{{ t.relic }}">{{ t.name }}</span>
+      {%- endunless %}{% endfor %}
+    </div>
+    <div class="actions">
+      <a class="btn primary" href="{{ '/CV_redouane.pdf' | relative_url }}" data-souls="Read the scroll (CV)">Curriculum vitae</a>
+      <a class="btn" href="{{ '/aboutMe/' | relative_url }}" data-souls="Character">About</a>
+      <a class="btn" href="{{ '/publications/' | relative_url }}" data-souls="Relics">Publications</a>
+      <a class="btn" href="{{ '/outreach/' | relative_url }}" data-souls="Covenants">Outreach</a>
+    </div>
+    <div class="stats" aria-label="Character stats">
+      <h4>Attributes</h4>
+      <div class="row"><span>Level (h-index)</span><span>15</span></div>
+      <div class="row"><span>Souls (citations)</span><span>1,000+</span></div>
+      {%- for t in site.data.research %}
+      <div class="row"><span>{{ t.name }}</span><span>{{ t.stat }}</span></div>
+      {%- endfor %}
+      <p class="build">Build: hybrid. No attribute left at base level.</p>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <p class="kicker" data-souls="Character">About</p>
+  <h2 data-souls="A wanderer between ocean and machine">Hello, I'm Redouane</h2>
+  <div class="panel intro">
+    {% capture intro %}{% include intro.md %}{% endcapture %}{{ intro | markdownify }}
+  </div>
+  <p class="more"><a href="{{ '/aboutMe/' | relative_url }}" data-souls="Read the full lore →">Biography, thesis committee and more →</a></p>
+  <button class="soapstone" style="right:-10px;top:-14px" data-msg="Try every weapon" aria-label="Read message"></button>
+</section>
+
+<section id="cited">
+  <p class="kicker" data-souls="Relics most sought">Most cited</p>
+  <h2 data-souls="Tales told by others">Papers people use</h2>
+  <div class="papers">
+    {%- for paper in site.data.publications.most_cited %}
+    <article class="panel paper" data-item="{{ paper.title | split: ':' | first | truncate: 48 | escape }}">
+      <div class="cites"><b>{{ paper.citations }}</b><small data-souls="souls">citations</small></div>
+      <div>
+        <h3><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h3>
+        <div class="meta">{{ paper.author }} · <em>{{ paper.venue }}</em>, {{ paper.year }}</div>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+  <p class="more"><a href="{{ site.data.publications.scholar.profile_url }}" target="_blank" rel="noopener" data-souls="Consult the full archive (Google Scholar)">All publications on Google Scholar →</a></p>
+</section>
+
+<section id="outreach">
+  <p class="kicker" data-souls="Covenants">Outreach</p>
+  <h2 data-souls="Oaths sworn">Science for everyone</h2>
+  <div class="outreach">
+    <div class="panel"><h3>MoroccoAI</h3><p>Co-founded a non-profit promoting AI adoption in Morocco.</p></div>
+    <div class="panel"><h3>AI in Darija</h3><p>Podcasts, workshops and notebooks teaching AI in Moroccan Darija.</p></div>
+    <div class="panel"><h3>Teaching in Africa</h3><p>Bias correction and downscaling courses in Morocco and Senegal; AI4Climate journal club since 2020.</p></div>
+  </div>
+  <p class="more"><a href="{{ '/outreach/' | relative_url }}" data-souls="Every oath, in full →">All outreach, talks and data challenges →</a></p>
+  <button class="soapstone" style="right:8%;bottom:-24px" data-msg="Praise the ocean!" aria-label="Read message"></button>
+</section>
+
+<section id="warming">
+  <p class="kicker" data-souls="The age of fire">Why it matters</p>
+  <h2 data-souls="The world grows warmer, year by year">{{ site.data.warming.size }} years of global temperature</h2>
+  <div class="stripes" id="stripes" role="img" aria-label="Warming stripes: global temperature anomalies from {{ site.data.warming.first.year }} to {{ site.data.warming.last.year }}"></div>
+  <div class="stripes-caption"><span>{{ site.data.warming.first.year }}</span><span>HadCRUT5 · stripes by Ed Hawkins</span><span>{{ site.data.warming.last.year }}</span></div>
+  <button class="soapstone" style="left:30%;top:-10px" data-msg="Be wary of coarse grids" aria-label="Read message"></button>
+</section>

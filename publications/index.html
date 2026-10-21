@@ -1,0 +1,35 @@
+---
+layout: page
+title: Selected publications
+description: Redouane Lguensat's five most cited publications in machine learning, ocean science, and data assimilation.
+permalink: /publications/
+panel: false
+---
+<p class="lead">
+  My five most cited papers. The full list is on
+  <a href="{{ site.data.publications.scholar.profile_url }}" target="_blank" rel="noopener">Google Scholar</a>
+  and in my <a href="{{ '/CV_redouane.pdf' | relative_url }}">CV</a>.
+</p>
+
+<div class="papers">
+  {%- for paper in site.data.publications.most_cited %}
+  <article class="panel paper" data-item="{{ paper.title | split: ':' | first | truncate: 48 | escape }}">
+    <div class="cites"><b>{{ paper.citations }}</b><small data-souls="souls">citations</small></div>
+    <div>
+      <div class="meta">{{ paper.kind }} · {{ paper.year }}</div>
+      <h3><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h3>
+      <div class="meta">{{ paper.author }}</div>
+      <div class="meta"><em>{{ paper.venue }}</em>{% if paper.details %}, {{ paper.details }}{% endif %}</div>
+      <div class="links">
+        <a href="{{ paper.url }}" target="_blank" rel="noopener">View paper</a>
+        <span>DOI {{ paper.doi }}</span>
+        {%- if paper.code_url %}
+        <a href="{{ paper.code_url }}" target="_blank" rel="noopener">Code</a>
+        {%- endif %}
+      </div>
+    </div>
+  </article>
+  {%- endfor %}
+</div>
+
+<p class="meta updated">Citation counts checked {{ site.data.publications.scholar.checked }}. Counts change over time.</p>

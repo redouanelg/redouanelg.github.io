@@ -1,0 +1,20 @@
+# Footer links
+main:
+
+- title: "Home"
+  url: /
+
+- title: "About"
+  url: /aboutMe/
+
+- title: "Publications"
+  url: /publications/
+
+- title: "Outreach"
+  url: /outreach/
+
+- title: "News archive"
+  url: /news/
+
+- title: "CV"
+  url: /CV_redouane.pdf

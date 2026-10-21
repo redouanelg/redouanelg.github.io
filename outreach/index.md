@@ -1,0 +1,33 @@
+---
+layout: page
+title: Outreach
+permalink: /outreach/
+---
+
+
+<p class="message">
+Dr. Redouane Lguensat <br>
+Research Engineer / Climate Data Scientist
+<a href="https://www.ipsl.fr">IPSL</a>/<a href="https://www.ird.fr">IRD</a>
+</p>
+
+### Science communication
+ * Oct 2022: Invited guest by Dr. Julie Deshayes for her Physical Oceanography interview by l'Esprit Sorcier. This was part of the French Science Festival 2022 "la Fête de la Science" [Youtube](https://www.youtube.com/watch?v=mb7dgwaCys0&ab_channel=L%27EspritSorcierTV)
+ * Feb 2020: Gave my insights on an article combining deep learning and analog forecasting for a piece published in EOS magazine. [link](https://eos.org/articles/combining-ai-and-analog-forecasting-to-predict-extreme-weather)
+ * Oct 2018: Did an interview with Grenoble Data Institute about my work on Machine Learning for Physical Oceanography. [link](https://data-institute.univ-grenoble-alpes.fr/research/focus-on/focus-on-redouane-lguensat-and-machine-learning-for-oceanography-766540.htm)
+
+### Journal Clubs
+ * Organizer of the [AI4Climate journal club](https://ai4climate.lip6.fr/category/journal-club/) since 2020 
+ 
+### Data Challenges
+ * Data Challenge Chair of [the CI2020 conference](https://ci2020.web.ox.ac.uk/home). Link for the public version of the data challenge [Codalab](https://competitions.codalab.org/competitions/26644)
+ * Data Challenge Chair of [the CI2019 conference](https://sites.google.com/view/climateinformatics2019/hackathon?authuser=0)
+
+### Popscience in Moroccan Darija
+ * Nov 2020: Podcast guest at [Tajriba](https://www.youtube.com/watch?v=R0lC47zvWFU). Target audience: internet; Language: Moroccan Darija.
+ * July 2020: "AI in Darija" workshop at Festival Moonshot Morocco. Target audience: public youth; Language: Moroccan Darija.
+ * Nov 2019: Two workshops at [Festival Moonshot Morocco](https://web.archive.org/web/20191117111145/http://moonshotmorocco.com/), first one on AI in general and the second on AI for Earth Observation. Target audience: public youth; Language: Moroccan Darija.
+ * Nov 2019: Podcast guest at [Data Maroc](https://www.youtube.com/watch?v=5GD4AOHsWEE). Target audience: internet; Language: Moroccan Darija.
+ * July 2019: Podcast guest at [GeekBlabla](https://geeksblabla.community/podcast/ml--ai). Target audience: internet; Language: Moroccan Darija.
+ * I am involved in a series of Youtube live courses and tutorials on Machine Learning with "Alfihrya Academy". [Link](https://www.youtube.com/playlist?list=PLXH8lluXIxcyzlE3swQ1AlubfKbr6frcj)
+ * I am running a personal project aiming to popularize AI in Moroccan Darija for high school students. This includes writing Jupyter notebooks in Darija and explaining AI concepts in simple words. Some of the outputs are shared in the following Github [repo](https://github.com/redouanelg/AppliedMathsInDarija)
