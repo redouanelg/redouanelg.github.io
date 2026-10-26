@@ -1,0 +1,87 @@
+---
+layout: null
+permalink: /groupesudIPSL/
+---
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Groupe Sud IPSL · Global South Working Group of IPSL</title>
+  <meta name="description" content="Globe interactif des collaborations entre les laboratoires de l'IPSL et les pays du Sud, établi à partir des publications des cinq dernières années.">
+  <meta property="og:title" content="Groupe Sud IPSL · Global South Working Group of IPSL">
+  <meta property="og:description" content="Interactive globe of collaborations between IPSL laboratories and Global South countries, built from the last five years of publications.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a465e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230a465e'/%3E%3Cpath d='M2 16h28M16 2c5 4 5 24 0 28M16 2c-5 4-5 24 0 28' fill='none' stroke='%230db9b5' stroke-width='1.6'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topband">
+    <div class="wrap topband-inner">
+      <a class="brand" href="./" data-i18n="brand">Groupe Sud IPSL</a>
+      <div class="lang" role="group" aria-label="Langue / Language">
+        <button type="button" data-lang="fr" lang="fr">FR</button>
+        <button type="button" data-lang="en" lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="intro wrap">
+    <h1 data-i18n="title">Groupe Sud IPSL</h1>
+    <p class="lead" id="lead"></p>
+  </section>
+
+  <main class="explorer wrap">
+    <section class="stage">
+      <div class="globe-wrap">
+        <canvas id="globe" role="img" data-i18n-aria="globeLabel"></canvas>
+        <div class="tooltip" id="tooltip" hidden></div>
+        <div class="globe-controls">
+          <button type="button" id="zoom-in" data-i18n-aria="zoomIn">+</button>
+          <button type="button" id="zoom-out" data-i18n-aria="zoomOut">−</button>
+          <button type="button" id="reset" data-i18n-aria="reset">⟲</button>
+        </div>
+      </div>
+      <p class="hint" data-i18n="hint"></p>
+      <div class="legend" id="legend"></div>
+    </section>
+
+    <section class="side">
+      <label class="search">
+        <span class="sr-only" data-i18n="searchLabel">Rechercher un pays</span>
+        <input id="search" type="search" list="country-list" autocomplete="off" data-i18n-placeholder="searchPlaceholder">
+      </label>
+      <datalist id="country-list"></datalist>
+
+      <p class="filter-name" data-i18n="regionsLabel">Régions</p>
+      <div class="toggles" id="regions"></div>
+      <p class="filter-name" data-i18n="labsLabel">Laboratoires</p>
+      <div class="toggles" id="labs"></div>
+
+      <div class="panel" id="panel" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <section class="method">
+    <div class="wrap">
+      <h2 data-i18n="methodTitle">Méthode</h2>
+      <div class="method-body" id="method-body"></div>
+    </div>
+  </section>
+
+  <footer class="footband">
+    <div class="wrap footband-inner">
+      <p data-i18n="footerTag">Groupe de travail Sud de l'Institut Pierre-Simon Laplace</p>
+      <p><a href="https://www.ipsl.fr" target="_blank" rel="noopener">ipsl.fr</a>, <span data-i18n="footerData">données</span> <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>, <span data-i18n="footerShapes">frontières</span> <a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a></p>
+    </div>
+  </footer>
+
+  <script src="lib/d3.min.js"></script>
+  <script src="lib/topojson-client.min.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

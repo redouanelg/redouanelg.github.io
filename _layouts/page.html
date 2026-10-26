@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="page">
+  <a class="back" href="{{ '/' | relative_url }}" data-souls="← Return to the bonfire">← Home</a>
+  <h1 class="page-title">{{ page.title }}</h1>
+  {%- if page.panel == false %}
+  {{ content }}
+  {%- else %}
+  <div class="panel prose">
+    {{ content }}
+  </div>
+  {%- endif %}
+</article>

@@ -1,0 +1,15 @@
+<footer>
+  <nav class="site-nav" aria-label="Site">
+    {%- for link in site.data.navigation.main %}
+    <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+    {%- endfor %}
+  </nav>
+  <p>
+    <span data-souls="May the flames guide thee.">Redouane Lguensat · IRD / IPSL</span> ·
+    <a href="https://scholar.google.com/citations?user=DuiyaQoAAAAJ">Scholar</a> ·
+    <a href="https://www.researchgate.net/profile/Redouane_Lguensat">ResearchGate</a> ·
+    <a href="https://www.linkedin.com/in/redouanelguensat/">LinkedIn</a> ·
+    <a href="https://x.com/redouanelg">X</a> ·
+    <a href="https://github.com/redouanelg">GitHub</a>
+  </p>
+</footer>

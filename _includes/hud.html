@@ -1,0 +1,16 @@
+{%- assign layers = site.data.research | where_exp: "t", "t.layer" -%}
+<canvas id="sst" aria-hidden="true"></canvas>
+<canvas id="embers" aria-hidden="true"></canvas>
+<div class="fog" aria-hidden="true"></div>
+
+<button class="switch" id="switch" type="button">Switch mode</button>
+<nav class="hud layers" id="layers" aria-label="Research layers">
+  {%- for t in layers %}
+  <button type="button" data-layer="{{ forloop.index0 }}">{{ t.layer }}<span class="prog"></span></button>
+  {%- endfor %}
+</nav>
+<div class="hud layercap" id="layercap"></div>
+<div class="hud tr" id="clock">--</div>
+<div class="hud scope" id="scope"><canvas id="scopecv" width="352" height="192"></canvas><div id="scopetxt"></div></div>
+<div class="hud bl" id="coords">cursor --</div>
+<div class="hud br">global anomaly {{ site.data.warming.last.year }} <b>+{{ site.data.warming.last.anomaly }} °C</b> · HadCRUT5</div>

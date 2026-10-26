@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="layout-{{ page.layout }}">
+    {% include hud.html %}
+
+    <main>
+      {{ content }}
+      {% include footer.html %}
+    </main>
+
+    <div class="boss" aria-label="Boss health bar">
+      <div class="name">Climate Change, the Unbound</div>
+      <div class="bar"><div class="fill" id="bossfill"></div></div>
+      <div class="hp">+{{ site.data.warming.last.anomaly }} °C of 1.5 °C · it grows stronger every year</div>
+    </div>
+
+    <script>
+      window.SITE = {
+        anomalies: [{% for row in site.data.warming %}{{ row.anomaly }}{% unless forloop.last %},{% endunless %}{% endfor %}],
+        feeds: {{ layers | map: "feed" | jsonify }},
+        ids: {{ layers | map: "id" | jsonify }}
+      };
+    </script>
+    <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+  </body>
+</html>
