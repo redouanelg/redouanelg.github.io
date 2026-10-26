@@ -19,6 +19,9 @@ keywords:         'redouane lguensat machine learning ocean sea surface temperat
 author:
   name:           'Redouane Lguensat'
 
+# No GitHub Pages default theme: the site has its own layouts and styles
+theme: null
+
 exclude:
   - README.md
   - Gemfile

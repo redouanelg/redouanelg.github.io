@@ -1,120 +1,42 @@
-# Research themes for /lab/, most recent focus first. The ones with a
-# `layer` are the background layers in satellite mode (the first one is
-# shown on load); in Souls mode each theme is a relic.
+# Research themes, used by the homepage. Themes with a `layer` are the
+# background layers in satellite mode (the first one shows on load); `name`
+# and `stat` fill the skill chips and Souls-mode attributes, `relic` is the
+# Souls-mode name.
 
 - id: downscaling
   name: "Statistical downscaling"
-  short: "From 100 km climate model grids to the kilometre-scale information impact studies need."
   layer: "Downscaling"
   feed: "CMIP6 · 100 km → 1 km"
-  slot: "Catalyst"
   relic: "Lens of Fine Detail"
-  relic_type: "Catalyst"
-  lore: "Peer through it and the coarse world sharpens, cell by cell, into valleys and coastlines."
   stat: 20
-  papers:
-    - title: "High-resolution downscaled CMIP6 projections dataset of key climate variables for Senegal"
-      venue: "Scientific Data"
-      year: 2026
-      url: "https://doi.org/10.1038/s41597-026-07059-9"
-    - title: "TEMLI: a high-resolution air temperature estimation using machine learning and land surface data across Morocco"
-      venue: "Earth Systems and Environment"
-      year: 2025
-      url: "https://doi.org/10.1007/s41748-025-00629-8"
-    - title: "Multiscale neural PDE surrogates for prediction and downscaling: application to ocean currents"
-      venue: "Climate Change AI workshop, NeurIPS"
-      year: 2025
-      url: "https://arxiv.org/abs/2507.18067"
 
 - id: bias
   name: "Bias correction"
-  short: "Correcting climate model biases so impact studies in the Global South rest on solid ground."
   layer: "Bias correction"
   feed: "model vs observations"
-  slot: "Left hand"
   relic: "Quantile Shield"
-  relic_type: "Greatshield"
-  lore: "Turns aside the model's biases. What passes through matches the observed world, quantile for quantile."
   stat: 20
-  note: "Taught at schools in Morocco (ICTP–UM6P) and Senegal (UCAD Dakar, IRD)"
-  papers:
-    - title: "Future water resources and droughts in the Atlas Mountains of Morocco under a high-emission climate scenario"
-      venue: "Journal of Hydrology: Regional Studies"
-      year: 2025
-      url: "https://doi.org/10.1016/j.ejrh.2025.102371"
-    - title: "Climate change will limit the potential for intensification in Senegal"
-      venue: "Environmental Research Communications"
-      year: 2026
-      url: "https://doi.org/10.1088/2515-7620/ae59f4"
 
 - id: tuning
   name: "Climate model tuning"
-  short: "History matching with ML emulators to rule out implausible model parameters."
   layer: "Model tuning"
   feed: "perturbed-parameter ensemble"
-  slot: "Talisman"
   relic: "Talisman of History Matching"
-  relic_type: "Talisman"
-  lore: "Rules out implausible worlds, wave after wave, until only the plausible remain."
   stat: 20
-  papers:
-    - title: "Semi-automatic tuning of coupled climate models with multiple intrinsic timescales: lessons learned from the Lorenz96 model"
-      venue: "JAMES"
-      year: 2023
-      url: "https://doi.org/10.1029/2022MS003367"
-    - title: "Surrogate modeling based history matching for an Earth system model of intermediate complexity"
-      venue: "Climate Change AI workshop, NeurIPS"
-      year: 2023
-      url: "https://www.climatechange.ai/papers/neurips2023/54"
 
 - id: eddies
   name: "Ocean eddy detection"
-  short: "Deep learning that finds and tracks mesoscale eddies in satellite altimetry."
   layer: "Eddies"
   feed: "SSH · altimetry L4"
-  slot: "Right hand"
   relic: "EddyNet"
-  relic_type: "Curved blade"
-  lore: "Forged in Brest from altimetry and patience. Cleaves the ocean's swirling eddies from the calm, pixel by pixel."
   stat: 18
-  papers:
-    - title: "EddyNet: a deep neural network for pixel-wise classification of oceanic eddies"
-      venue: "IGARSS"
-      year: 2018
-      url: "https://doi.org/10.1109/IGARSS.2018.8518411"
-    - title: "A deep framework for eddy detection and tracking from satellite sea surface height data"
-      venue: "IEEE TGRS"
-      year: 2021
-      url: "https://doi.org/10.1109/TGRS.2020.3032523"
 
 - id: assimilation
   name: "Data assimilation"
-  short: "Analog data assimilation: forecasting from the days that resembled today."
-  slot: "Tome"
   relic: "Tome of Analogs"
-  relic_type: "Tome"
-  lore: "An old tome teaching that tomorrow may be read in the days that resembled today."
   stat: 17
-  papers:
-    - title: "The analog data assimilation"
-      venue: "Monthly Weather Review"
-      year: 2017
-      url: "https://doi.org/10.1175/MWR-D-16-0441.1"
 
 - id: hybrid
   name: "Hybrid modeling"
-  short: "Neural networks inside physical models: subgrid parametrizations that respect the physics."
-  slot: "Ring"
   relic: "Ring of Invariance"
-  relic_type: "Ring"
-  lore: "A ring engraved with symmetry. Its wearer's predictions hold, however the world is turned."
   stat: 16
-  papers:
-    - title: "Physical invariance in neural networks for subgrid-scale scalar flux modeling"
-      venue: "Physical Review Fluids"
-      year: 2021
-      url: "https://doi.org/10.1103/PhysRevFluids.6.024607"
-    - title: "A posteriori learning for quasi-geostrophic turbulence parametrization"
-      venue: "JAMES"
-      year: 2022
-      url: "https://doi.org/10.1029/2022MS003124"

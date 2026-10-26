@@ -18,9 +18,9 @@ a:hover { text-decoration: underline; }
 #sst, #embers { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 0; }
 
 /* Which elements belong to which mode */
-#embers, .fog, .soapstone, .stats, .boss, .souls-only { display: none; }
-body.souls #sst, body.souls .hud, body.souls .popup, body.souls .climate-only { display: none; }
-body.souls #embers, body.souls .fog, body.souls .stats, body.souls .boss, body.souls .souls-only { display: block; }
+#embers, .fog, .soapstone, .stats, .boss { display: none; }
+body.souls #sst, body.souls .hud, body.souls .popup { display: none; }
+body.souls #embers, body.souls .fog, body.souls .stats, body.souls .boss { display: block; }
 body.souls .soapstone { display: grid; }
 
 .fog { position: fixed; inset: -20%; z-index: 0; pointer-events: none; opacity: .5;

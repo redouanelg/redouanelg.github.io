@@ -20,7 +20,7 @@ Research Engineer / Climate Data Scientist
  * Organizer of the [AI4Climate journal club](https://ai4climate.lip6.fr/category/journal-club/) since 2020 
  
 ### Data Challenges
- * Data Challenge Chair of [the CI2020 conference](https://ci2020.web.ox.ac.uk/home). Link for the public version of the data challenge [Codalab](https://competitions.codalab.org/competitions/26644)
+ * Data Challenge Chair of [the CI2020 conference](https://ci2020.web.ox.ac.uk/home). Link for the public version of the data challenge [Codalab](https://web.archive.org/web/20251214171205/https://competitions.codalab.org/competitions/26644)
  * Data Challenge Chair of [the CI2019 conference](https://sites.google.com/view/climateinformatics2019/hackathon?authuser=0)
 
 ### Popscience in Moroccan Darija
